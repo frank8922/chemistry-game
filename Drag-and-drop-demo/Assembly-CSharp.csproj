@@ -53,7 +53,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DraggingObjectsAlkali.cs" />
      <Compile Include="Assets\Scripts\DraggingObjectsAlkaline.cs" />
-     <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Shapes2D\Demos\DragCamera.cs" />
      <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Bird.cs" />
      <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Game.cs" />
