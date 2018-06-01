@@ -5,6 +5,8 @@ using UnityEditor;
 
 public class Timer : MonoBehaviour
 {
+	//TODO: see if there is away to make this more efficient maybe better way to implement 
+	
 	public static int timeLeft = 60;
 	Text countdownText;
 
@@ -24,8 +26,6 @@ public class Timer : MonoBehaviour
 		{
 			StopCoroutine("LoseTime");
 			countdownText.text = "Times Up!";
-			//Time.timeScale = 0;
-			//EditorApplication.isPaused = true;
 
 		}
 	}

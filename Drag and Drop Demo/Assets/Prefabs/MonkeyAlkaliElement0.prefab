@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4507800959438386}
   - component: {fileID: 212151496646714280}
-  - component: {fileID: 58236098915389756}
   - component: {fileID: 50229802505780598}
+  - component: {fileID: 58236098915389756}
   - component: {fileID: 114943576868526044}
   m_Layer: 10
   m_Name: MonkeyAlkaliElement0

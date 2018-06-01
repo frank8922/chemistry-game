@@ -8,18 +8,15 @@ public class DraggingObjectsAlkaline : MonoBehaviour
 	//use to as init function
 	void Start()
 	{
-		Debug.Log("Start() for " + this.gameObject + " was called");
+		Debug.Log("Start() for " + gameObject + " was called");
 		// Store reference to attached Rigidbody
 		rb = GetComponent<Rigidbody2D>();
+		//set the rigid body not to rotate
 		rb.freezeRotation = true;
-		Physics2D.gravity = new Vector2(0,-9.8f);
-
+		//Set gravity to default 9.8f down on y axis
+		Physics2D.gravity = new Vector2(0,-9.0f);
 		//ignore 2Dphysics on certain layers when they collide
 		Physics2D.IgnoreLayerCollision(10,10);
-		//Physics2D.IgnoreLayerCollision(8,9);
-		//Physics2D.IgnoreLayerCollision(8,8);
-		//Physics2D.IgnoreLayerCollision(9,9);
-		//Physics2D.IgnoreLayerCollision(9,8);
 	}
 
 
@@ -28,10 +25,13 @@ public class DraggingObjectsAlkaline : MonoBehaviour
 	void OnMouseDrag()
 	{
 		Debug.Log("OnMouseDrag() for " + this.gameObject + " was called");
+		//gets the distance from the gameObject to the camera which is the z axis 
 		float distance_to_screen = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
 
-		// Move by Rigidbody rather than transform directly
+		// Move by Rigidbody rather than transform directly moves
+		// MovePosition allows for the clean effect of dragging instead of teleporting
 		rb.MovePosition(Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance_to_screen)));
+		//when dragging the object around it gets a little bit bigger
 		gameObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
 	}
 
@@ -41,9 +41,9 @@ public class DraggingObjectsAlkaline : MonoBehaviour
 	void OnMouseExit()
 	{
 		Debug.Log("OnMouseExit() for " + this.gameObject + " was called");
-		gameObject.transform.localScale = new Vector3(1, 1, 1);	
+		//when the user stops dragging go back to normal
+		gameObject.transform.localScale = new Vector3(1, 1, 1);
 	}
-
 
 
 	//OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.
@@ -55,20 +55,19 @@ public class DraggingObjectsAlkaline : MonoBehaviour
 		if (other.gameObject.CompareTag("Alkali"))
 		{
 
-			Destroy(this.gameObject);
+			Destroy(gameObject);
 			Score.scoreValue += 10;
-			Debug.Log(this.gameObject.name + " destroyed by correct group");
+			Debug.Log(gameObject.name + " destroyed by correct group");
 		}
 		else if (other.gameObject.CompareTag("BottomBoxCollider")) 
 		{ 
-        	Destroy(this.gameObject);
+        	Destroy(gameObject);
 			Score.scoreValue -= 10;
-			Debug.Log(this.gameObject.name + " destroyed by bottom box collider");
+			Debug.Log(gameObject.name + " destroyed by bottom box collider");
 		}
 		else
 		{
-			//TODO: make some type of feedback
-			//this.gameObject.transform.position = new Vector3(0,0);
+			//TODO: implement some kind of feedback this statement will run when user gets wrong answer
 			Debug.Log("else statement is ran");
 
 		}

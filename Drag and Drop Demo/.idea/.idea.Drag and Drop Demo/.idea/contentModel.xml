@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_Drag and Drop Demo.2022145371.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="DraggingObjectsAlkali.cs" t="Include" />
+          <e p="DraggingObjectsAlkaline.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
+        </e>
+        <e p="Shapes2D" t="Include">
+          <e p="changelog.txt" t="Include" />
+          <e p="Demos" t="Include">
+            <e p="DragCamera.cs" t="Include" />
+            <e p="Flappy Shapes" t="Include">
+              <e p="Bird.cs" t="Include" />
+              <e p="Game.cs" t="Include" />
+            </e>
+            <e p="InputUtils.cs" t="Include" />
+            <e p="Showcase" t="Include">
+              <e p="PacMan.cs" t="Include" />
+            </e>
+            <e p="Simple Effect" t="Include">
+              <e p="EffectDemo.cs" t="Include" />
+              <e p="TapEffect.cs" t="Include" />
+            </e>
+            <e p="Stress Test" t="Include">
+              <e p="Spawner.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CustomHandles.cs" t="Include" />
+            <e p="MenuItems.cs" t="Include" />
+            <e p="ShapeEditor.cs" t="Include" />
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="PolyMap.cs" t="Include" />
+            <e p="Shape.cs" t="Include" />
+            <e p="Shapes2DPrefs.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Common.cginc" t="Include" />
+            <e p="Ellipse.cginc" t="Include" />
+            <e p="Path.cginc" t="Include" />
+            <e p="Polygon.cginc" t="Include" />
+            <e p="Rectangle.cginc" t="Include" />
+            <e p="Shape.shader" t="Include" />
+            <e p="Triangle.cginc" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Drag and Drop Demo.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

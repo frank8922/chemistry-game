@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
+	
+	//TODO: see if there is away to make this more efficient maybe better way to implement 
 
 	public static int scoreValue = 0;
 	Text score;
@@ -17,6 +19,5 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		score.text = "Score: " + scoreValue;
-		Debug.Log("Score was updated to " +  scoreValue);
 	}
 }
