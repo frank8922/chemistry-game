@@ -22,7 +22,8 @@ GameObject:
   - component: {fileID: 212151496646714280}
   - component: {fileID: 50229802505780598}
   - component: {fileID: 58236098915389756}
-  - component: {fileID: 114943576868526044}
+  - component: {fileID: 114657157816854122}
+  - component: {fileID: 114067995892249666}
   m_Layer: 10
   m_Name: MonkeyAlkaliElement0
   m_TagString: AlkaliElement
@@ -57,7 +58,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.1111
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -78,7 +79,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.425
---- !u!114 &114943576868526044
+--- !u!114 &114067995892249666
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,7 +87,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836689110316982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e07e0631f494bd08a718d305191c31, type: 3}
+  m_Script: {fileID: 11500000, guid: b4eb6314774b0455fa5582f48c85b205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114657157816854122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836689110316982}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8405e8fd94cd4ee79f4598b4fabdec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212151496646714280

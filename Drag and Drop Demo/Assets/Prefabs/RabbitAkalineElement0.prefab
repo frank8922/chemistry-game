@@ -22,7 +22,8 @@ GameObject:
   - component: {fileID: 212313057784326262}
   - component: {fileID: 50781157109149032}
   - component: {fileID: 58663316307899978}
-  - component: {fileID: 114220263429834588}
+  - component: {fileID: 114554072499453200}
+  - component: {fileID: 114128911769390638}
   m_Layer: 10
   m_Name: RabbitAkalineElement0
   m_TagString: AlkalineElement
@@ -57,7 +58,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.111111
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -78,7 +79,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.425
---- !u!114 &114220263429834588
+--- !u!114 &114128911769390638
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,7 +87,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1689860142991072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bfba95f01c434d3d90c305d886aaf85, type: 3}
+  m_Script: {fileID: 11500000, guid: b4eb6314774b0455fa5582f48c85b205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114554072499453200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689860142991072}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8405e8fd94cd4ee79f4598b4fabdec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212313057784326262

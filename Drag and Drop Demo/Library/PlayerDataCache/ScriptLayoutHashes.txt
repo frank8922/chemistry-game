@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/tvvizzlemac/Unity Projects/Drag and Drop Demo/dragdemoandroid.apk
+/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/draganddroptest.apk
 SceneListBegin?
 Assets/Scenes/Scene1.unity
 SceneListEnd?
@@ -122,7 +122,6 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 e85806d46e2abc214c61751afebabfe4 Assembly-CSharp.dll:Shapes2D.TapEffect
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DraggingObjectsAlkali
 4e9eca34bb6e104f79d461520674f80a Assembly-CSharp.dll:.Shapes2DPrefs
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -158,4 +157,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 f1b04b42258b96532fc34ed433d02c62 Assembly-CSharp.dll:Shapes2D.Spawner
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Shapes2D.DragCamera
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DraggingObjectsAlkaline
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DraggingObjects
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchControl
