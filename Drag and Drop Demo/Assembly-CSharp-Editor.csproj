@@ -55,10 +55,10 @@
      <Compile Include="Assets\Shapes2D\Editor\MenuItems.cs" />
      <Compile Include="Assets\Shapes2D\Editor\ShapeEditor.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -298,7 +298,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
- <HintPath>/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/tvvizzlemac/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

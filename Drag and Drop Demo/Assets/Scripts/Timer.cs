@@ -26,7 +26,8 @@ public class Timer : MonoBehaviour
 		{
 			StopCoroutine("LoseTime");
 			countdownText.text = "Times Up!";
-
+			Spawner.stop = true;
+			FindObjectOfType<GameManager>().EndGame();
 		}
 	}
 

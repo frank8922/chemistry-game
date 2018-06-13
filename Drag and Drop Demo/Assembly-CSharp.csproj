@@ -51,36 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\DraggingObjects.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
-     <Compile Include="Assets\Scripts\TouchControl.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\DragCamera.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Bird.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Game.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\InputUtils.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\Showcase\PacMan.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\Simple Effect\EffectDemo.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\Simple Effect\TapEffect.cs" />
-     <Compile Include="Assets\Shapes2D\Demos\Stress Test\Spawner.cs" />
-     <Compile Include="Assets\Shapes2D\Scripts\PolyMap.cs" />
-     <Compile Include="Assets\Shapes2D\Scripts\Shape.cs" />
-     <Compile Include="Assets\Shapes2D\Scripts\Shapes2DPrefs.cs" />
-     <None Include="Assets\Shapes2D\Shaders\Shape.shader" />
-     <None Include="Assets\Shapes2D\Shaders\Common.cginc" />
-     <None Include="Assets\Shapes2D\changelog.txt" />
-     <None Include="Assets\Shapes2D\Shaders\Path.cginc" />
-     <None Include="Assets\Shapes2D\readme.txt" />
-     <None Include="Assets\Shapes2D\Shaders\Triangle.cginc" />
-     <None Include="Assets\Shapes2D\Shaders\Ellipse.cginc" />
-     <None Include="Assets\Shapes2D\Shaders\Rectangle.cginc" />
-     <None Include="Assets\Shapes2D\Shaders\Polygon.cginc" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
