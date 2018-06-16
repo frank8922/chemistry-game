@@ -10,6 +10,7 @@ using UnityEditor;
 public class FirebaseScript : MonoBehaviour {
 
 	public InputField EmailAddress, Password;
+    public Text LoginInformation;
 
 	public void LoginButtonPressed(){
 		FirebaseAuth.DefaultInstance.SignInWithEmailAndPasswordAsync(EmailAddress.text, Password.text).ContinueWith((task) =>
@@ -22,7 +23,9 @@ public class FirebaseScript : MonoBehaviour {
             else if (task.IsFaulted)
             {
                 Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
-                EditorUtility.DisplayDialog("Incorrect Login", "Password or email is incorrect.", "Fix it.");
+                //EditorUtility.DisplayDialog("Incorrect Login", "Password or email is incorrect.", "Fix it.");
+                //Password.GetComponent<InputField>().placeholder.GetComponent<Text>().text = "Login incorrect.";
+                LoginInformation.text = "Login incorrect.";
                 return;
             }
             else
@@ -55,8 +58,9 @@ public class FirebaseScript : MonoBehaviour {
             }
             else
             {
+                LoginInformation.text = "Password must be 6 characters.";
+
                 Password.Select();
-                EditorUtility.DisplayDialog("Password Length", "Password must be at least six characters.", "Change Password");
             }
 
             Debug.Log("Does not work!" + EmailAddress.text);
