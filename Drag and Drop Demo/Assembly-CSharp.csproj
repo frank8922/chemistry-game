@@ -51,6 +51,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Modern UI Pack\Scripts\CustomDropdown.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\CustomInputField.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\DemoHamburgerMenu.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\DemoManager.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\DemoPanelAnim.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\DropdownItem.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\LaunchURL.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\NotificationExample.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\PBFilled.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\ProgressBar.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\RadialSlider.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\RatingSystem.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\SwitchAnim.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\ToggleAnim.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\DisableObject.cs" />
      <Compile Include="Assets\Scripts\DraggingObjects.cs" />
@@ -100,12 +114,15 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
+     <None Include="Assets\Modern UI Pack\Licence.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Shaders\Gradient Shader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\Firebase\Plugins\link.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Modern UI Pack\Read Me.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Simple UI\Fonts\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
