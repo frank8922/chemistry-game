@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-06-20T07:02:18.251-04:00
+  lastUpdatedAtString: 2018-06-20T11:39:30.163-04:00
   initializedAtString: 2018-06-20T07:02:18.244-04:00
   localBranches:
   - name: GAME-LOGIN-FIREBASE
     tracking: origin/GAME-LOGIN-FIREBASE
   remoteBranches:
+  - name: origin/GAME-LOGIN-FIREBASE
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   remotes:
@@ -42,9 +44,15 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - GAME-LOGIN-FIREBASE
       - HEAD
     subKeyValues:
     - Values:
+      - name: GAME-LOGIN-FIREBASE
+        remote:
+          name: origin
+          url: https://github.com/frank8922/chemistry-game.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin

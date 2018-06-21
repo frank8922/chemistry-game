@@ -52,10 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\DisableObject.cs" />
      <Compile Include="Assets\Scripts\DraggingObjects.cs" />
      <Compile Include="Assets\Scripts\FirebaseScript.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\LoginScript.cs" />
+     <Compile Include="Assets\Scripts\OpenDialogBoxScript.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
