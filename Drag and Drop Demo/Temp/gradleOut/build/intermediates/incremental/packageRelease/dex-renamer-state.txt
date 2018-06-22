@@ -1,4 +1,0 @@
-#Thu Jun 21 23:37:34 EDT 2018
-base.0=/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/transforms/dex/release/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

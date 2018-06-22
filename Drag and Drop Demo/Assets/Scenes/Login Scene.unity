@@ -3516,6 +3516,16 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: closeDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 114210172506135786, guid: 8fd3450dfbed441218e0c7ae9ba11631,
+        type: 2}
+      propertyPath: m_ContentType
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210172506135786, guid: 8fd3450dfbed441218e0c7ae9ba11631,
+        type: 2}
+      propertyPath: m_InputType
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd3450dfbed441218e0c7ae9ba11631, type: 2}
   m_IsPrefabParent: 0
@@ -5602,6 +5612,16 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: closeDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210172506135786, guid: 8fd3450dfbed441218e0c7ae9ba11631,
+        type: 2}
+      propertyPath: m_ContentType
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210172506135786, guid: 8fd3450dfbed441218e0c7ae9ba11631,
+        type: 2}
+      propertyPath: m_InputType
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd3450dfbed441218e0c7ae9ba11631, type: 2}

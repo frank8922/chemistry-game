@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-06-21T18:08:55.720-04:00
-  initializedAtString: 2018-06-20T07:02:18.244-04:00
+  lastUpdatedAtString: 2018-06-22T15:24:16.568-04:00
+  initializedAtString: 2018-06-22T15:24:16.421-04:00
   localBranches:
   - name: GAME-LOGIN-FIREBASE
     tracking: origin/GAME-LOGIN-FIREBASE
