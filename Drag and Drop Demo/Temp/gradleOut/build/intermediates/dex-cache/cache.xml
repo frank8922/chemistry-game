@@ -3,57 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/Firebase/build/intermediates/bundles/default/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/a5384ded0ac54892b08a88016e368dbc49460af8/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="40ff3be403f28768b5e51eb3a76547170dd88e95">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_bbb5b2329b82859931e3d6526881b91b7bf0ec64.jar" />
+        sha1="d8ec04dc91c0c90a0ceeca77c94c8b15cb7f3892">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_b5f78cb628c150c9960ed0d85262627370d50971.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/83643aa5b05123b9edc18735815669635c97559f/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/c6b230711f6e8f6100cf0ba6d728716468fa43e4/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_36ec4149cecb181d34874b23afe912146933246d.jar" />
+        sha1="a38a8974c8d066800237d22a86df2e88cb9e065c">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_63550014365b6a7cd341d48d325ab8ccbcbe445b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/66d85e5e154a57793f83c74e5c225d1b1306a6d2/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_39501c0e2f93a70514a7f2239e4c95ad095d72f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/121eddff2ae3b504efd47cd90687853190e14b85/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="b739661c7142579d33f42801cfb71882cd217727">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_ab755351452df307588eddc2caa62146402f7d66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/afccbc0cd3c2839361716cf654ee431dbae2b318/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_84bc7d66df91165d1c73aa0c055be1fb52063f03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/e1b8a568710bfd006b91a3a7c566c3061e946dae/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/95ab18bf3b08b4f2ceb5789d5ef66d0d67127e71/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="54c67f87c9eb60be5eca37aa7d1a85f7651c4bc1">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_e3d9a7ec8303d8811d2c18bb7a7af35e8fd60ed5.jar" />
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_68838092375dfda1e27c63f9fa9a97fcc5c8e1f2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,75 +39,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/libs/com.android.support.support-annotations-26.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/com.android.support.support-annotations-26.1.0_95bd703d41426e9bccf01ac72d41fb0344aef4d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/9013301835abbbf1a194e3fd42dfd467022467c5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="22569eca3029ab00583c332a2be220cdbf091b35">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_d63b0c9546c5b90bfb94e90c073a3153472faf61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/5e7930231707c036f87c73f65ad09569e03d3b5b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="d8ec04dc91c0c90a0ceeca77c94c8b15cb7f3892">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_837a964d3bba17a93fee1d3b4e6bc6ff3ad7b6a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/146e7da31e66bded959059af57e9580529e22190/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/9503bbdeefd57cff147c515838d5cda2502955fd/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="43777ad2c3f87b64ced35a875ce2befa178a23da">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_115c08ed96ad9251c5d78b0863be048a47c78d06.jar" />
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_bfb5df52bad76f572a1284bf44d2338850c1b164.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/c29988c218ce1cc2e9ebbff4839f4c7f114e4cd9/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/16691fc6f8edb76fa8b265e1d0af7cc489a6779b/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_b1a98f79bcf1e14463b3e982901ee96e38a838b7.jar" />
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_baede7ac6589eb0b5b05006fb364e47607e8a238.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/7003c8e43059ce2a148af2548ed8d60073c4449e/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/b424d3669a79d863aaf942d466ab75436b063884/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_a1089eaa841e9b8a731d1a4e8ef43d06bebe89f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/0e9df483629c71b48581b375b41e72792bb05a21/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_5a5a0f27a7b92c088fbf7ead41697156dabb66de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/8099c86982ca3d2ad87dfecefcd1c4bb7c07605c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="a38a8974c8d066800237d22a86df2e88cb9e065c">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_bea596a9895eac9c1a61c080a98ae70a96abefad.jar" />
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_e99d5830a7156cd605ca8ccfeab59daaae71e043.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,30 +75,138 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/03c80827e21d08f225777376d95962d48c38cd2f/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/b1c1b3025053d7bbcea72940fb57178df27dd197/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_ad4f165ffcd421c2d6208f9062f8f61eb16ff3d5.jar" />
+        sha1="ba42e6949397668e88ea3d2b188078ddf0143813">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_04823a5388821bc13a8fa341d09bbfccab3ab0d0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/46a853be6ce284aad60a5c675067fbcd3432e4a7/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/f6496ad7d0e21a9cddd3e9e6b7711c3a8ae3eeb8/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="4c9dde3866f60967d73035b3445bb0f703429612">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_145d36e317e578bdbcd452547eaeab7829869098.jar" />
+        sha1="b739661c7142579d33f42801cfb71882cd217727">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_e1791bed5846b09fddc6de757f2dba0435f86583.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/franciscobelliard/.android/build-cache/f21ae4527acc4ab1e745d248383f2507e6da86d6/output/jars/classes.jar"
+        jar="/Users/franciscobelliard/.android/build-cache/486b8312693bb4a95c08335f2cc28ecedf296d22/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_e95e44bf2499f81660d303177bc30dfd5f864553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/Firebase/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="40ff3be403f28768b5e51eb3a76547170dd88e95">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_bbb5b2329b82859931e3d6526881b91b7bf0ec64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/a6f4f2f9b736c109b6efc602698947c6b0c99277/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="ed8395f343c428cd55c60499f04323083f4ef0db">
-        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_306636d4e95e44229565deaaad92c4e07739dc00.jar" />
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_42ceee0398bacbdf1f0b9ff9bd24537da8bba600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/3130a04f99f6a1b4e2daef11a2f431283d032a52/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_6aa52d7c6acdde468b34fed130ec212a498487f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/f6a6d9a3b5295e3ce6247c79a081f293497b8e66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="63762d99e25ebfd92f60558dcef8aef334cc6dd3">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_804ae41300cb6b8cfc2bc0f75df58c0f383081e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/7e16949b971c6a56289fcd70a81156bf8f36440a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_8f6ba4abee37e9d7b7a13c7062a541477d954691.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/e1b25d12119181072bd813a5819547e0ed816551/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="28855a4e3ba945ef69b97e6ba41ef32e57065b3d">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_bbc58f1cae6e706ae43148c2b59d3c228521b1a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/libs/com.android.support.support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/com.android.support.support-annotations-26.1.0_95bd703d41426e9bccf01ac72d41fb0344aef4d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/ffc44f97ac2cabb02c74d7b17c81ab5e3e219cf2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4c9dde3866f60967d73035b3445bb0f703429612">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_d61b4af9f0e515de061680b98b26d23add0695e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/0cd82149455762a834dc0356e81f3610ec922580/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_0bf4468bed6c6a402e925005da2a43f48220694f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/d7791f126e345e69e8f7841b75234411116bca3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="22569eca3029ab00583c332a2be220cdbf091b35">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_cc8cfcb7c9db83b5eab624dfa88a46fcde4f86b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/48c011e213bae76cf266260db6f0315451839389/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5824717818f7ac8bd17b200b1b182c0313740c60">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_45057faabb2a6b39d00f8c619d12be4bbdcc852b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/franciscobelliard/.android/build-cache/9c07486432e930426e2f13e87e4805cf65391241/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_d6dd65e9021740625cce2776e549484cf21ffe78.jar" />
     </item>
     <item
         is-multidex="false"

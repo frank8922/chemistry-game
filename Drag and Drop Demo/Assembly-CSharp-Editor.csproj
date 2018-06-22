@@ -55,7 +55,11 @@
      <None Include="Assets\Firebase\Editor\FirebaseAuth_v4.5.2_manifest.txt" />
      <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.64.0.txt" />
      <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+     <None Include="Assets\GoogleSignIn\Editor\GoogleSignInSupportDependencies.xml" />
+     <None Include="Assets\GoogleSignIn\Editor\m2repository\com\google\signin\google-signin-support\maven-metadata.xml" />
      <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
+     <None Include="Assets\GoogleSignIn\Editor\GoogleSignInDependencies.xml" />
+     <None Include="Assets\GoogleSignIn\Editor\google-signin-plugin_v1.0.3.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
@@ -302,6 +306,12 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="TextMeshPro-2017.3-Editor">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Runtime">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Google.JarResolver_v1.2.64.0">
  <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
  </Reference>
@@ -313,6 +323,33 @@
  </Reference>
  <Reference Include="Google.IOSResolver_v1.2.64.0">
  <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Posix">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ </Reference>
+ <Reference Include="ReadOnlyCollectionsInterfaces">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Api">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncBridge.Net35">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
  <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
@@ -352,39 +389,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/franciscobelliard/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Logging">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
- </Reference>
- <Reference Include="ReadOnlyCollectionsInterfaces">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Unity">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Api">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
- </Reference>
- <Reference Include="AsyncBridge.Net35">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Posix">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="sfw.net">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

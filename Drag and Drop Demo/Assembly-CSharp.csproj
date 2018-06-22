@@ -51,6 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GoogleSignIn\Future.cs" />
+     <Compile Include="Assets\GoogleSignIn\GoogleSignIn.cs" />
+     <Compile Include="Assets\GoogleSignIn\GoogleSignInConfiguration.cs" />
+     <Compile Include="Assets\GoogleSignIn\GoogleSignInStatusCode.cs" />
+     <Compile Include="Assets\GoogleSignIn\GoogleSignInUser.cs" />
+     <Compile Include="Assets\GoogleSignIn\Impl\BaseObject.cs" />
+     <Compile Include="Assets\GoogleSignIn\Impl\GoogleSignInImpl.cs" />
+     <Compile Include="Assets\GoogleSignIn\Impl\NativeFuture.cs" />
+     <Compile Include="Assets\GoogleSignIn\Impl\SignInHelperObject.cs" />
      <Compile Include="Assets\Modern UI Pack\Scripts\CustomDropdown.cs" />
      <Compile Include="Assets\Modern UI Pack\Scripts\CustomInputField.cs" />
      <Compile Include="Assets\Modern UI Pack\Scripts\DemoHamburgerMenu.cs" />
@@ -70,6 +79,7 @@
      <Compile Include="Assets\Scripts\DraggingObjects.cs" />
      <Compile Include="Assets\Scripts\FirebaseScript.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GoogleSignOnController.cs" />
      <Compile Include="Assets\Scripts\LoginScript.cs" />
      <Compile Include="Assets\Scripts\OpenDialogBoxScript.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
@@ -334,6 +344,12 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="TextMeshPro-2017.3-Editor">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Runtime">
+ <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Compat">
  <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
@@ -360,12 +376,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/franciscobelliard/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
