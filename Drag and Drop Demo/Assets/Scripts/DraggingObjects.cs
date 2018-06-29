@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DraggingObjects : MonoBehaviour {
 	private Rigidbody2D rb;
-	private float gravity = -1.0f;
-	private float maxSpeed = 1.5f;
+	public float gravity,maxSpeed,beginInteraction,endInteraction;
+	public float limitQuickness = .001f;
+
+	
+
+
+	
 
 
 	void FixedUpdate()
@@ -20,6 +26,22 @@ public class DraggingObjects : MonoBehaviour {
 	//use Start() as init function
 	void Start()
 	{
+		Scene activeScene = SceneManager.GetActiveScene();
+		if(activeScene.buildIndex == 0){
+				
+				gravity = -1.0f;
+				maxSpeed = 1.5f;
+
+			}else if(activeScene.buildIndex == 1){
+				
+				gravity = -2.5f;
+				maxSpeed = 2.5f;
+
+			}else if(activeScene.buildIndex == 2){
+				gravity = -3.5f;
+				maxSpeed = 3.5f;
+			}
+
 		//Debug.Log("Start() for " + gameObject + " was called");
 		// Store reference to attached Rigidbody
 		rb = GetComponent<Rigidbody2D>();
@@ -37,6 +59,7 @@ public class DraggingObjects : MonoBehaviour {
 	//TODO: Use touch instead of Mouse
 	void OnMouseDrag()
 	{
+
 		//Debug.Log("OnMouseDrag() for " + this.gameObject + " was called");
 		//gets the distance from the gameObject to the camera which is the z axis 
 		float distance_to_screen = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
@@ -46,6 +69,10 @@ public class DraggingObjects : MonoBehaviour {
 		//when dragging the object around it gets a little bit bigger
 		rb.velocity = new Vector3(0,0,0);
 		//gameObject.transform.localScale = new Vector3(.65f, .65f, .65f);
+		beginInteraction = Time.time;
+		
+
+		
 
 	}
 
@@ -72,6 +99,15 @@ public class DraggingObjects : MonoBehaviour {
 			Score.scoreValue += 10;
 			Debug.Log(gameObject.name + " destroyed by " + other.name);
 			FindObjectOfType<AudioManager>().Play("correctnoise");
+			endInteraction = Time.time;
+			float interactionQuickness = endInteraction - beginInteraction;
+			if(interactionQuickness <= limitQuickness ){
+			Score.scoreValue += 10;
+			Debug.Log("FAST ASF BOI");
+
+		}
+			Debug.Log("Alkali " + interactionQuickness);
+			
 
 
 		}
@@ -81,7 +117,14 @@ public class DraggingObjects : MonoBehaviour {
 			Score.scoreValue += 10;
 			Debug.Log(gameObject.name + " destroyed by " + other.name);
 			FindObjectOfType<AudioManager>().Play("correctnoise");
+			endInteraction = Time.time;
+			float interactionQuickness = endInteraction - beginInteraction;
+			if(interactionQuickness <= limitQuickness ){
+			Score.scoreValue += 10;
+			Debug.Log("FAST ASF BOI");
 
+		}
+			Debug.Log("Alkaline " + interactionQuickness);
 
 		}
 		else if (other.gameObject.CompareTag("BottomBoxCollider")) 
@@ -90,6 +133,7 @@ public class DraggingObjects : MonoBehaviour {
 			Score.scoreValue -= 10;
 			Debug.Log(gameObject.name + " destroyed by " + other.name);
 			FindObjectOfType<AudioManager>().Play("destroy");
+			
 
 		}
 		else
@@ -97,8 +141,13 @@ public class DraggingObjects : MonoBehaviour {
 			FindObjectOfType<AudioManager>().Play("wrongnoise");
 			Handheld.Vibrate();
 			Debug.Log("else statement is ran");
+			gameObject.GetComponent<Renderer>().material.color = Color.red;
+			
 
 		}
+		
+		
 
 	}
+	
 }

@@ -28,6 +28,7 @@ public class Spawner : MonoBehaviour {
 	void Update () {
 		spawnWait = Random.Range(spawnLeastWait,spawnMostWait);
 		//Debug.Log(aspectRatio);
+		/*
 		if(aspectRatio >= 2){
 			//18:9
 			Debug.Log("18:9");
@@ -43,6 +44,8 @@ public class Spawner : MonoBehaviour {
 		} else{
 			Debug.Log("Else statement is ran");
 		}
+		 */
+		
 	}
 
 	//Co-routine
@@ -52,8 +55,6 @@ public class Spawner : MonoBehaviour {
 
 		while (!stop)
 		{
-		
-			
 			randSpawneeNumber = Random.Range(0,elementSpawnees.Length);
 			
 			Vector2 spawnPosition = new Vector2(Random.Range(-spawnDomain,spawnDomain),Random.Range(yPosition,yPosition));

@@ -21,4 +21,16 @@ public class GameManager : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
+	public void SwitchScene1a(){
+		SceneManager.LoadScene(0);
+	}
+
+	public void SwitchScene1b(){
+		SceneManager.LoadScene(1);
+	}
+
+	public void SwitchScene1c(){
+		SceneManager.LoadScene(2);
+	}
+
 }

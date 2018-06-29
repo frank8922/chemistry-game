@@ -15,7 +15,7 @@ public class FullscreenSprite : MonoBehaviour {
         Vector2 scale = transform.localScale;
         if (cameraSize.x >= cameraSize.y) { // Landscape (or equal)
             scale *= cameraSize.x / spriteSize.x;
-        } else { // Portrait
+        } else { // Potraint
             scale *= cameraSize.y / spriteSize.y;
         }
         
