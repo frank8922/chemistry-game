@@ -23,7 +23,7 @@
   </explodeData>
   <explodeData>
     <aar>android.arch.lifecycle.runtime-1.0.0</aar>
-    <modificationTime>2018-06-21T22:30:36.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.6625169-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar</path>
@@ -45,7 +45,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-compat-26.1.0</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.7124165-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar</path>
@@ -56,7 +56,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-core-ui-26.1.0</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.7403405-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar</path>
@@ -67,7 +67,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-core-utils-26.1.0</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.7652743-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar</path>
@@ -78,7 +78,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-fragment-26.1.0</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.7902138-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar</path>
@@ -89,7 +89,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-media-compat-26.1.0</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.8181018-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar</path>
@@ -100,7 +100,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-v4-26.1.0</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:10:36.8400430-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar</path>
@@ -110,264 +110,242 @@
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-auth-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-ads-identifier-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.1598063-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-auth-api-phone-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-auth-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.2040636-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-auth-api-phone-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-auth-api-phone-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.2209830-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-auth-base-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-auth-base-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.2399325-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-auth-base-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-base-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.2608763-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-base-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-base-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-basement-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.2818213-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-base-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-basement-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-base-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-flags-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.3007696-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-base-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-flags-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-basement-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-measurement-base-16.0.0</aar>
+    <modificationTime>2018-07-02T00:50:13.3217150-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-basement-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-16.0.0.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-basement-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-stats-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.3406637-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-basement-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-stats-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-tasks-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.android.gms.play-services-tasks-15.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.3586147-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-15.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.android.gms.play-services-tasks-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-analytics-16.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.3775660-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-16.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-analytics-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-analytics-impl-16.1.1</aar>
+    <modificationTime>2018-07-02T00:10:36.8619850-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-impl-16.1.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-analytics-impl-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-impl-12.0.1.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>false</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>com.google.firebase.firebase-analytics-impl-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-impl-license-12.0.1.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>false</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>com.google.firebase.firebase-analytics-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
-    <explode>false</explode>
-    <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-license-12.0.1.aar</path>
-    <targetAbi>universal</targetAbi>
-    <gradleBuildEnabled>true</gradleBuildEnabled>
-    <gradleExport>false</gradleExport>
-    <ignoredVersion />
-  </explodeData>
-  <explodeData>
-    <aar>com.google.firebase.firebase-app-unity-4.5.2</aar>
-    <modificationTime>2018-06-21T22:31:09.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-app-unity-5.1.1</aar>
+    <modificationTime>2018-07-02T00:50:31.3601131-04:00</modificationTime>
     <explode>true</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-4.5.2.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-5.1.1.aar</path>
     <targetAbi>armv7</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-auth-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-auth-16.0.2</aar>
+    <modificationTime>2018-07-02T00:50:13.3985091-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-16.0.2.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-auth-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-auth-interop-16.0.0</aar>
+    <modificationTime>2018-07-02T00:50:13.4164608-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-16.0.0.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-auth-unity-4.5.2</aar>
-    <modificationTime>2018-06-21T22:31:10.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-auth-unity-5.1.1</aar>
+    <modificationTime>2018-07-02T00:50:32.3773691-04:00</modificationTime>
     <explode>true</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-4.5.2.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-5.1.1.aar</path>
     <targetAbi>armv7</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-common-12.0.1</aar>
-    <modificationTime>2018-06-21T22:31:10.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-common-16.0.0</aar>
+    <modificationTime>2018-07-02T00:50:33.1625680-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-common-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-common-16.0.0.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-common-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-core-16.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.4523679-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-common-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-core-16.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-core-12.0.1</aar>
-    <modificationTime>2018-06-21T22:31:11.0000000-04:00</modificationTime>
-    <explode>true</explode>
+    <aar>com.google.firebase.firebase-iid-16.0.0</aar>
+    <modificationTime>2018-07-02T00:50:33.9265232-04:00</modificationTime>
+    <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-core-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-16.0.0.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-iid-12.0.1</aar>
-    <modificationTime>2018-06-21T22:31:12.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-iid-interop-16.0.0</aar>
+    <modificationTime>2018-07-02T00:50:13.4882699-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-16.0.0.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
     <ignoredVersion />
   </explodeData>
   <explodeData>
-    <aar>com.google.firebase.firebase-iid-license-12.0.1</aar>
-    <modificationTime>2018-06-21T22:30:37.0000000-04:00</modificationTime>
+    <aar>com.google.firebase.firebase-measurement-connector-16.0.0</aar>
+    <modificationTime>2018-07-02T00:50:13.5042269-04:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.mdcchem</bundleId>
-    <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-license-12.0.1.aar</path>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-16.0.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-measurement-connector-impl-16.0.1</aar>
+    <modificationTime>2018-07-02T00:50:13.5221899-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.mdcchem</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-impl-16.0.1.aar</path>
     <targetAbi>universal</targetAbi>
     <gradleBuildEnabled>true</gradleBuildEnabled>
     <gradleExport>false</gradleExport>
@@ -375,7 +353,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.signin.google-signin-support-1.0.3</aar>
-    <modificationTime>2018-06-21T22:31:13.0000000-04:00</modificationTime>
+    <modificationTime>2018-07-02T00:50:34.9396861-04:00</modificationTime>
     <explode>true</explode>
     <bundleId>com.mdcchem</bundleId>
     <path>Assets/Plugins/Android/com.google.signin.google-signin-support-1.0.3.aar</path>

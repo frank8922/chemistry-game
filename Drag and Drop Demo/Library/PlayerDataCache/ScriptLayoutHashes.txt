@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/franciscobelliard/Documents/Unity Projects/Git Projects/Freer Branch/chemistry-game/Drag and Drop Demo/Chem App Build.apk
+C:/Users/dfree/Documents/CHEM-GAME3/chemistry-game/Drag and Drop Demo/fun.apk
 SceneListBegin?
 Assets/Scenes/Login Scene.unity
 Assets/Scenes/Level1.unity
@@ -233,6 +233,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 0ff15417b64d8b5ee955a13f6693eead Assembly-CSharp.dll:.NotificationExample
+e4c00ee289c68116006a87d4d831aa85 Assembly-CSharp.dll:SignInSample.SigninSampleScript
 f0f0ab6b8a39d0572cfa4ea315d84fbf Assembly-CSharp.dll:TMPro.Examples.Benchmark04
 29273f491d11f6bdd02a43a9d8df84c7 Assembly-CSharp.dll:TMPro.Examples.TMP_ExampleScript_01
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -244,6 +245,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 1cd4893b18ef6c9e1612214d23ea08a3 Assembly-CSharp.dll:.ChatController
 48a9dee325686d1924a2646b71c83f08 Assembly-CSharp.dll:TMPro.Examples.Benchmark01
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GoogleSignOnController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TextConsoleSimulator
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
@@ -256,4 +258,3 @@ b445712ecaa2f792cee7d8b8a92eed7a Assembly-CSharp.dll:.DisableObject
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DraggingObjects
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GoogleSignOnController

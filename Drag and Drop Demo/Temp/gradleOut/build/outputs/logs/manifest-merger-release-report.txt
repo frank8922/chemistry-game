@@ -1,0 +1,400 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:2:70-98
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:2:99-145
+	xmlns:android
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:2:146-186
+supports-screens
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:4:3-16:17
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\dfree\.android\build-cache\6e5f896c2b99c6840d52d36a28cabaae136691bc\output\AndroidManifest.xml:24:5-28:19
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\dfree\.android\build-cache\df438302aa7a6ab03891ce5c7a1d919992746a5a\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\dfree\.android\build-cache\1e657e47cedc565dbca942af4c3d26eae0c45d99\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\dfree\.android\build-cache\eb164f9e5c1803098a56d533d43be1436aaa3ae1\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\dfree\.android\build-cache\cc91fd90c577aa10c077490644e89f3ec01493bd\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\dfree\.android\build-cache\70beb753a8da92b47ceac5def791710219b876a2\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\dfree\.android\build-cache\506e1192483fc1b6a247b58b6b6fc86017879337\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] C:\Users\dfree\.android\build-cache\3562624d52f80ad110ed6a93cded345d6734cafa\output\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:22:5-37:19
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] C:\Users\dfree\.android\build-cache\48947806f617fd2d8897870c9635ff17a988dbec\output\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] C:\Users\dfree\.android\build-cache\d2bb30e70339a79daf492f91b2628745ae0e343e\output\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.0:] C:\Users\dfree\.android\build-cache\60b9fa7795bd2b545197d8c3e03a45abc1c2eb19\output\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] C:\Users\dfree\.android\build-cache\2230f41223cc3eaa9811342d67c7861ffd509ea9\output\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] C:\Users\dfree\.android\build-cache\e2203010aacba9784802d9b52d4bbdabb52040f1\output\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:28:5-53:19
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:28:5-38:19
+MERGED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:22:5-36:19
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] C:\Users\dfree\.android\build-cache\750a0391aab3c5975c3ac4a86632a7181272a583\output\AndroidManifest.xml:7:5-8:19
+MERGED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:4:3-6:17
+MERGED from [:com.google.firebase.firebase-core-16.0.1:] C:\Users\dfree\.android\build-cache\8690d382c4c3a04d91252c9f314187c7db7c0dce\output\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:26:3-45:17
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] C:\Users\dfree\.android\build-cache\cc27018ccf1b7ab6b60c3631a1a2615ab90bf6e2\output\AndroidManifest.xml:7:5-8:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-16.0.0:] C:\Users\dfree\.android\build-cache\300b5ee0e5f88732c23f62f49e296cb44a5e327a\output\AndroidManifest.xml:22:5-23:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:26:5-32:19
+MERGED from [:com.google.signin.google-signin-support-1.0.3:] C:\Users\dfree\.android\build-cache\ce760f6e14dcc44e0dc2b281e7c4011cec5372d8\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:4:92-124
+	android:icon
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:4:58-91
+	android:banner
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:4:147-184
+	android:theme
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:4:16-57
+	android:isGame
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:4:125-146
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:102-145
+	android:label
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:69-101
+	android:hardwareAccelerated
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:360-395
+	android:launchMode
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:146-177
+	android:configChanges
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:178-359
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:5:15-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:6:7-10:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:8:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:9:9-78
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:9:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:11:7-82
+	android:value
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:11:59-79
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:11:18-58
+meta-data#unity.build-id
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:13:5-101
+	android:value
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:13:46-98
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:13:16-45
+meta-data#unity.splash-mode
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:14:5-69
+	android:value
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:14:49-66
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:14:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:15:5-74
+	android:value
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:15:51-71
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:15:16-50
+uses-feature#0x00020000
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:17:3-52
+	android:glEsVersion
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:17:17-49
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:18:3-65
+MERGED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:20:3-65
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:18:20-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-64
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:19:20-61
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:20:3-88
+	android:required
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:20:61-85
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:20:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:21:3-99
+	android:required
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:21:72-96
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:21:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:22:3-108
+	android:required
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:22:81-105
+	android:name
+		ADDED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml:22:17-80
+uses-sdk
+INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\dfree\.android\build-cache\6e5f896c2b99c6840d52d36a28cabaae136691bc\output\AndroidManifest.xml:20:5-22:41
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\dfree\.android\build-cache\df438302aa7a6ab03891ce5c7a1d919992746a5a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\dfree\.android\build-cache\1e657e47cedc565dbca942af4c3d26eae0c45d99\output\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\dfree\.android\build-cache\eb164f9e5c1803098a56d533d43be1436aaa3ae1\output\AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\dfree\.android\build-cache\cc91fd90c577aa10c077490644e89f3ec01493bd\output\AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\dfree\.android\build-cache\70beb753a8da92b47ceac5def791710219b876a2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\dfree\.android\build-cache\506e1192483fc1b6a247b58b6b6fc86017879337\output\AndroidManifest.xml:21:5-23:54
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] C:\Users\dfree\.android\build-cache\3562624d52f80ad110ed6a93cded345d6734cafa\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-auth-api-phone-15.0.1:] C:\Users\dfree\.android\build-cache\c1c6899edb753eef64e161663302e36d6a38a371\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-auth-base-15.0.1:] C:\Users\dfree\.android\build-cache\e738ca905581730cd22e3beb95c20dc12d1dd1d3\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] C:\Users\dfree\.android\build-cache\48947806f617fd2d8897870c9635ff17a988dbec\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] C:\Users\dfree\.android\build-cache\d2bb30e70339a79daf492f91b2628745ae0e343e\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-flags-15.0.1:] C:\Users\dfree\.android\build-cache\7f396b59a46b28107520f5356d38748ebeabdf3c\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.0:] C:\Users\dfree\.android\build-cache\60b9fa7795bd2b545197d8c3e03a45abc1c2eb19\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] C:\Users\dfree\.android\build-cache\2230f41223cc3eaa9811342d67c7861ffd509ea9\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] C:\Users\dfree\.android\build-cache\e2203010aacba9784802d9b52d4bbdabb52040f1\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-app-unity-5.1.1:] C:\Users\dfree\.android\build-cache\44e1a1f7075430a4dabcc58aee742eb349b9d8b9\output\AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] C:\Users\dfree\.android\build-cache\750a0391aab3c5975c3ac4a86632a7181272a583\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-auth-unity-5.1.1:] C:\Users\dfree\.android\build-cache\bb1c6c0715a6f2e79f0f078194fad1d42130901e\output\AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:3:3-42
+MERGED from [:com.google.firebase.firebase-core-16.0.1:] C:\Users\dfree\.android\build-cache\8690d382c4c3a04d91252c9f314187c7db7c0dce\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:18:3-42
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] C:\Users\dfree\.android\build-cache\cc27018ccf1b7ab6b60c3631a1a2615ab90bf6e2\output\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-measurement-connector-16.0.0:] C:\Users\dfree\.android\build-cache\300b5ee0e5f88732c23f62f49e296cb44a5e327a\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.signin.google-signin-support-1.0.3:] C:\Users\dfree\.android\build-cache\ce760f6e14dcc44e0dc2b281e7c4011cec5372d8\output\AndroidManifest.xml:21:5-23:41
+MERGED from [gradleOut:Firebase:unspecified] C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\Firebase\build\intermediates\bundles\default\AndroidManifest.xml:15:5-17:40
+	tools:overrideLibrary
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\dfree\.android\build-cache\df438302aa7a6ab03891ce5c7a1d919992746a5a\output\AndroidManifest.xml:23:9-55
+	android:targetSdkVersion
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dfree\Documents\CHEM-GAME3\chemistry-game\Drag and Drop Demo\Temp\gradleOut\src\main\AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\dfree\.android\build-cache\6e5f896c2b99c6840d52d36a28cabaae136691bc\output\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\dfree\.android\build-cache\6e5f896c2b99c6840d52d36a28cabaae136691bc\output\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\dfree\.android\build-cache\6e5f896c2b99c6840d52d36a28cabaae136691bc\output\AndroidManifest.xml:26:13-58
+meta-data#android.support.VERSION
+ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\dfree\.android\build-cache\df438302aa7a6ab03891ce5c7a1d919992746a5a\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\dfree\.android\build-cache\1e657e47cedc565dbca942af4c3d26eae0c45d99\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\dfree\.android\build-cache\eb164f9e5c1803098a56d533d43be1436aaa3ae1\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\dfree\.android\build-cache\cc91fd90c577aa10c077490644e89f3ec01493bd\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\dfree\.android\build-cache\70beb753a8da92b47ceac5def791710219b876a2\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\dfree\.android\build-cache\506e1192483fc1b6a247b58b6b6fc86017879337\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\dfree\.android\build-cache\df438302aa7a6ab03891ce5c7a1d919992746a5a\output\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\dfree\.android\build-cache\df438302aa7a6ab03891ce5c7a1d919992746a5a\output\AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [:com.google.android.gms.play-services-auth-15.0.1:] C:\Users\dfree\.android\build-cache\8621ef90b2b8cb5b91c9fd5dfbdd1b32434396c6\output\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [:com.google.android.gms.play-services-base-15.0.1:] C:\Users\dfree\.android\build-cache\48947806f617fd2d8897870c9635ff17a988dbec\output\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-base-15.0.1:] C:\Users\dfree\.android\build-cache\48947806f617fd2d8897870c9635ff17a988dbec\output\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-base-15.0.1:] C:\Users\dfree\.android\build-cache\48947806f617fd2d8897870c9635ff17a988dbec\output\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-base-15.0.1:] C:\Users\dfree\.android\build-cache\48947806f617fd2d8897870c9635ff17a988dbec\output\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [:com.google.android.gms.play-services-basement-15.0.1:] C:\Users\dfree\.android\build-cache\d2bb30e70339a79daf492f91b2628745ae0e343e\output\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [:com.google.android.gms.play-services-basement-15.0.1:] C:\Users\dfree\.android\build-cache\d2bb30e70339a79daf492f91b2628745ae0e343e\output\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:com.google.android.gms.play-services-basement-15.0.1:] C:\Users\dfree\.android\build-cache\d2bb30e70339a79daf492f91b2628745ae0e343e\output\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:19:3-77
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:21:3-66
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:26:5-110
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:34:9-42:20
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.1.1:] C:\Users\dfree\.android\build-cache\43ebf32133fea8c1a30535a75356618c62267014\output\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.1:] C:\Users\dfree\.android\build-cache\de3ec209de3250d8aad70152633d845e52718e32\output\AndroidManifest.xml:49:13-87
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:31:9-35:19
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:27:5-29:15
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:27:9-31:19
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-16.0.2:] C:\Users\dfree\.android\build-cache\e7a769e033300ce7fa3ff751986a68e25d9558b0\output\AndroidManifest.xml:33:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:5:5-165
+	android:authorities
+		ADDED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:5:80-113
+	android:exported
+		ADDED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:5:114-138
+	android:initOrder
+		ADDED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:5:139-162
+	android:name
+		ADDED from [:com.google.firebase.firebase-common-16.0.0:] C:\Users\dfree\.android\build-cache\757d85d28f5e93f2a0df5037e4ca963d46a6a780\output\AndroidManifest.xml:5:15-79
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:23:3-80
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:23:20-77
+permission#com.mdcchem
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:24:3-80
+	android:protectionLevel
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:24:42-77
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:24:15-41
+uses-permission#com.mdcchem
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:25:3-49
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:25:20-46
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:28:7-166
+	android:value
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:28:98-163
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:28:18-97
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:30:5-35:16
+	android:exported
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:30:81-104
+	android:permission
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:30:105-165
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:30:15-80
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.mdcchem
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:31:7-34:23
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:32:9-73
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:32:17-70
+category#com.mdcchem
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:33:9-48
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:33:19-45
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:40:5-44:15
+	android:exported
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:40:79-102
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:40:14-78
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:41:7-43:23
+	android:priority
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:41:22-45
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:42:9-72
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] C:\Users\dfree\.android\build-cache\9030f2b750d4eb8a314843722df83a06825b25f3\output\AndroidManifest.xml:42:17-69
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [:com.google.firebase.firebase-measurement-connector-impl-16.0.1:] C:\Users\dfree\.android\build-cache\cf21bc5ed1889347bb48afda3d9a1651cc33f143\output\AndroidManifest.xml:29:17-139
