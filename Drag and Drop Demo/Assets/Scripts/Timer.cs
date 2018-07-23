@@ -4,68 +4,83 @@ using UnityEngine.UI;
 using UnityEditor;
 using UnityEngine.SceneManagement;
 
+/*
+This script handles the timer as soon as the game starts the timer starts counting
+dependent on the time the game will branch out to various events foo.
+The game mode is a hybrid of time driven and score as the time is constantly counting down 
+but you have to meet the threshold of 100 score inorder to progress to the next sublevel
+ */
+
 public class Timer : MonoBehaviour
-{
-	//TODO: see if there is away to make this more efficient maybe better way to implement 
+{ 
 	float timeLeft = 30;
 	Text countdownText;
 	static int counter = 0;
-	
-	// Use this for initialization
+
 	void Start()
 	{
 		countdownText = GetComponent<Text>();
-		StartCoroutine("LoseTime");
-
+		StartCoroutine("SubtractTime");
 	}
-
-	// Update is called once per frame b
 	void Update()
 	{
 		countdownText.text = ("Time Left: " + timeLeft);
 
 		if (timeLeft <= 0)
-		{
-			StopCoroutine("LoseTime");
+			{
+			if(Score.scoreValue < 100){
+				timeLeft = 15;
+			}
+			else
+			{
+			//once this point is reached this means the player has reached the threshold of 100 points
+			//therefore they may progress to the next sublevel
+			StopCoroutine("SubtractTime");
 			countdownText.text = "Times Up!";
-			StartCoroutine("ChangeSceneController");
-			
+			StartCoroutine("ChangeScene");
+			}
 		}
-		
 	}
 
-	IEnumerator ChangeSceneController()
+	/*
+	Once the thresh holds of time and score is reached the game needs to change the scene but we want to wait a couple 
+	of seconds to let the player finish. It also sets up the next scene and keeps track of the which scenes have been played. 
+	 */
+	 //TODO: dependent on the level selection and flow of the general ui this may need to be tweaked and played with 
+	 //also maybe load the next scene asynchrously in the background, maybe a loading screen inbetween the loads
+	 //the way of keeping track of the level maybe better suited with enumerators
+
+	IEnumerator ChangeScene()
 	{
-		//will be bonus time for like 5 seconds more or less
 		Spawner.stop = true;
-		yield return new WaitForSeconds(4);
+		yield return new WaitForSeconds(2);
 		Spawner.stop = false;
 			if(counter == 0){
-				SceneManager.LoadScene(1);
-				
-			}else if(counter == 1){
 				SceneManager.LoadScene(2);
-			}else if(counter == 2){
+				Score.scoreValue = 0;
+			}else if(counter == 1){
 				SceneManager.LoadScene(3);
+				Score.scoreValue  = 0;
+			}else if(counter == 2){
 			}
-			//Debug.Log("Hello World" + counter++);
 			timeLeft = 30; 
 			counter++;
-			StopCoroutine("ChangeSceneController");
+			StopCoroutine("ChangeScene");
 	}
 
-	IEnumerator LoseTime()
+
+	/*
+	This is what keeps track of the time. For each second that passes it takes one away from the current time
+	This function runs in parallel with the Update();
+	 */
+	IEnumerator SubtractTime()
 	{
 		while (true)
 		{
-			
+			Debug.Log("This is the couroutine for subtracting the time");
 			yield return new WaitForSeconds(1);
 			timeLeft--;
 		}
 		
 	}
-
-	
-
-
 }

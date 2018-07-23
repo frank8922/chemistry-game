@@ -6,14 +6,18 @@ using System;
 
 [System.Serializable]
 public class AudioManager : MonoBehaviour {
+	/*
+	Manages the audio in a nice array
+	 */
 
-	// Use this for initialization
 	public Sound[] sounds;
 
 	public static AudioManager instance;
 
 	//awake is called before start
 	void Awake(){
+		QualitySettings.vSyncCount = 0;
+		Application.targetFrameRate = 60;
 		//allows audio to persist through scenes
 		DontDestroyOnLoad(gameObject);
 
@@ -37,7 +41,7 @@ public class AudioManager : MonoBehaviour {
 	}
 	void Start () {
 
-		Play("theme");
+		
 		
 	}
 	

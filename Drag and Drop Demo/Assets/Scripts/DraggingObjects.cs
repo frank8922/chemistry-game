@@ -1,48 +1,29 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+This class represents the falling elements in the game mode. They are comprised of sprites,rigidbodies, and
+box colliders. This class also sets certain fields
+ */
+
 public class DraggingObjects : MonoBehaviour {
 	private Rigidbody2D rb;
-	public float gravity,maxSpeed,beginInteraction,endInteraction;
-	public float limitQuickness = .001f;
-
+	static public float gravity,maxSpeed;
+	DateTime beginInteraction,endInteraction;
+	SpriteRenderer spriteRender;
 	
-
-
-	
-
-
 	void FixedUpdate()
 	{
 		if(rb.velocity.magnitude > maxSpeed){
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 		}
-
-	}
-
-
-	//use Start() as init function
+	}	
 	void Start()
 	{
-		Scene activeScene = SceneManager.GetActiveScene();
-		if(activeScene.buildIndex == 0){
-				
-				gravity = -1.0f;
-				maxSpeed = 1.5f;
-
-			}else if(activeScene.buildIndex == 1){
-				
-				gravity = -2.5f;
-				maxSpeed = 2.5f;
-
-			}else if(activeScene.buildIndex == 2){
-				gravity = -3.5f;
-				maxSpeed = 3.5f;
-			}
-
-		//Debug.Log("Start() for " + gameObject + " was called");
+		spriteRender = GetComponent<SpriteRenderer>();
 		// Store reference to attached Rigidbody
 		rb = GetComponent<Rigidbody2D>();
 		//set the rigid body not to rotate
@@ -52,102 +33,75 @@ public class DraggingObjects : MonoBehaviour {
 		//ignore 2Dphysics on certain layers when they collide
 		Physics2D.IgnoreLayerCollision(10,10);
 	}
-
-
-	
-	//can be thought of as a touch drag
-	//TODO: Use touch instead of Mouse
 	void OnMouseDrag()
 	{
-
-		//Debug.Log("OnMouseDrag() for " + this.gameObject + " was called");
-		//gets the distance from the gameObject to the camera which is the z axis 
 		float distance_to_screen = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
 		// Move by Rigidbody rather than transform directly moves
 		// MovePosition allows for the clean effect of dragging instead of teleporting
 		rb.MovePosition(Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance_to_screen)));
-		//when dragging the object around it gets a little bit bigger
-		rb.velocity = new Vector3(0,0,0);
-		//gameObject.transform.localScale = new Vector3(.65f, .65f, .65f);
-		beginInteraction = Time.time;
-		
-
 		
 
 	}
-
-
-	//can be thought of as when user stops touching
-	//TODO: Use touch instead of Mouse
-	void OnMouseExit()
-	{
-		//Debug.Log("OnMouseExit() for " + this.gameObject + " was called");
-		//when the user stops dragging go back to normal
-		//gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+	void OnMouseDown(){
+		beginInteraction = DateTime.Now;
 	}
-
 
 	//OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.
 	void OnTriggerEnter2D(Collider2D other)
-	{
-		Debug.Log("The OnTriggerEnter2D() for "  + other.gameObject.tag + " was called");
-		
+	{	
 		//Check the provided Collider2D parameter other to see if it is tagged "foo", if it is...
 		if (other.gameObject.tag == "Alkali" && gameObject.tag == "AlkaliElement" )
 		{
 			Destroy(gameObject);
-			Score.scoreValue += 10;
-			Debug.Log(gameObject.name + " destroyed by " + other.name);
-			FindObjectOfType<AudioManager>().Play("correctnoise");
-			endInteraction = Time.time;
-			float interactionQuickness = endInteraction - beginInteraction;
-			if(interactionQuickness <= limitQuickness ){
-			Score.scoreValue += 10;
-			Debug.Log("FAST ASF BOI");
-
-		}
-			Debug.Log("Alkali " + interactionQuickness);
-			
-
-
+			endInteraction = DateTime.Now; 
+			TimeSpan duration = endInteraction.Subtract(beginInteraction);
+			if(duration.Milliseconds <= 200)
+			{
+				Score.scoreValue += 20;
+				FindObjectOfType<AudioManager>().Play("bonusnoise");
+			}else{
+				Score.scoreValue += 10;
+				FindObjectOfType<AudioManager>().Play("correctnoise");
+			}
 		}
 		else if (other.gameObject.tag == "Alkaline" && gameObject.tag == "AlkalineElement" )
 		{
 			Destroy(gameObject);
-			Score.scoreValue += 10;
-			Debug.Log(gameObject.name + " destroyed by " + other.name);
-			FindObjectOfType<AudioManager>().Play("correctnoise");
-			endInteraction = Time.time;
-			float interactionQuickness = endInteraction - beginInteraction;
-			if(interactionQuickness <= limitQuickness ){
-			Score.scoreValue += 10;
-			Debug.Log("FAST ASF BOI");
-
-		}
-			Debug.Log("Alkaline " + interactionQuickness);
-
+			endInteraction = DateTime.Now; 
+			TimeSpan duration = endInteraction.Subtract(beginInteraction);
+			if(duration.Milliseconds <= 200){
+				Score.scoreValue += 20;
+				FindObjectOfType<AudioManager>().Play("bonusnoise");
+			}else{
+				Score.scoreValue += 10;
+				FindObjectOfType<AudioManager>().Play("correctnoise");
+			}
 		}
 		else if (other.gameObject.CompareTag("BottomBoxCollider")) 
 		{ 
             Destroy(gameObject);
-			Score.scoreValue -= 10;
 			Debug.Log(gameObject.name + " destroyed by " + other.name);
 			FindObjectOfType<AudioManager>().Play("destroy");
-			
-
 		}
 		else
 		{
 			FindObjectOfType<AudioManager>().Play("wrongnoise");
-			Handheld.Vibrate();
+			//Handheld.Vibrate();
 			Debug.Log("else statement is ran");
 			gameObject.GetComponent<Renderer>().material.color = Color.red;
-			
-
+			StartCoroutine("FadeOut");
+			Score.scoreValue -= 10;
 		}
-		
-		
-
 	}
-	
+
+	IEnumerator FadeOut()
+	{
+		for(float f = 1f; f>=-0.05f; f -= 0.05f){
+			Color c = spriteRender.material.color;
+			c.a = f;
+			spriteRender.material.color = c;
+			yield return new WaitForSeconds(.05f);
+		}
+		Destroy(gameObject);
+	}
 }

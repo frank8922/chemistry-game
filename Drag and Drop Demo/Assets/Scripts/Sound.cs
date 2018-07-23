@@ -3,6 +3,7 @@ using UnityEngine.Audio;
 using System;
 
 /*
+This is a class to represent sound which we use in the audio manager
 use this class to add foo to the audio manager
  */
 

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ScalableLogin.unity
+- path: Assets/Scenes/Level1a.unity
   isLoaded: 1
   isActive: 1
