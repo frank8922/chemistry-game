@@ -26,14 +26,31 @@ public class VideoPlayerDone : MonoBehaviour {
 	void Update () {
 		if(videoPlayer.isPrepared){
 			videoPlayer.Play();
+			//Debug.Log("The video is playing");
 		}else{
 			videoPlayer.Prepare();
 		}
 	}
 	void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
+		Debug.Log("End of the video animation");
        	videoPlayer.Stop();
-		FindObjectOfType<GameManager>().SwitchScene1a();
+		if(SceneManager.GetActiveScene().name == "VideoAnimationLevel1"){
+			SceneManager.LoadScene("Level1a");
+			FindObjectOfType<AudioManager>().Play("theme");
+			Timer.counter = 0;
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel2"){
+			SceneManager.LoadScene("Level2a");
+			Timer.counter = 0;
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel3"){
+			SceneManager.LoadScene("Level3a");
+			Timer.counter = 0;
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel4"){
+			SceneManager.LoadScene("Level4a");
+			Timer.counter = 0;
+		}else{
+			Debug.Log("This is the else statement of the endreached event");
+		}
 		
     }
 

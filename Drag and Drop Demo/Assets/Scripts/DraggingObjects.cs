@@ -11,12 +11,15 @@ box colliders. This class also sets certain fields
 
 public class DraggingObjects : MonoBehaviour {
 	private Rigidbody2D rb;
-	static public float gravity,maxSpeed;
+	public static float gravity,maxSpeed;
 	DateTime beginInteraction,endInteraction;
 	SpriteRenderer spriteRender;
+
+	public static String correctAnswers,incorrectAnswers;
 	
 	void FixedUpdate()
 	{
+		//causes the speed of the falling object to be constant once it hits a maxSpeed
 		if(rb.velocity.magnitude > maxSpeed){
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 		}
@@ -50,8 +53,10 @@ public class DraggingObjects : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{	
 		//Check the provided Collider2D parameter other to see if it is tagged "foo", if it is...
-		if (other.gameObject.tag == "Alkali" && gameObject.tag == "AlkaliElement" )
+		if (other.gameObject.tag == "LeftBox" && gameObject.tag == "LeftElement" )
 		{
+			correctAnswers += gameObject.name.Replace("(Clone)","").Trim() + ",";
+			Debug.Log(gameObject.name.Replace("(Clone)","").Trim());
 			Destroy(gameObject);
 			endInteraction = DateTime.Now; 
 			TimeSpan duration = endInteraction.Subtract(beginInteraction);
@@ -64,8 +69,10 @@ public class DraggingObjects : MonoBehaviour {
 				FindObjectOfType<AudioManager>().Play("correctnoise");
 			}
 		}
-		else if (other.gameObject.tag == "Alkaline" && gameObject.tag == "AlkalineElement" )
+		else if (other.gameObject.tag == "RightBox" && gameObject.tag == "RightElement" )
 		{
+			correctAnswers += gameObject.name.Replace("(Clone)","").Trim() + ",";
+			Debug.Log(gameObject.name.Replace("(Clone)","").Trim());
 			Destroy(gameObject);
 			endInteraction = DateTime.Now; 
 			TimeSpan duration = endInteraction.Subtract(beginInteraction);
@@ -80,14 +87,15 @@ public class DraggingObjects : MonoBehaviour {
 		else if (other.gameObject.CompareTag("BottomBoxCollider")) 
 		{ 
             Destroy(gameObject);
-			Debug.Log(gameObject.name + " destroyed by " + other.name);
+			//Debug.Log(gameObject.name + " destroyed by " + other.name);
 			FindObjectOfType<AudioManager>().Play("destroy");
 		}
 		else
 		{
+			incorrectAnswers += gameObject.name.Replace("(clone)","").Trim() + ",";
 			FindObjectOfType<AudioManager>().Play("wrongnoise");
 			//Handheld.Vibrate();
-			Debug.Log("else statement is ran");
+			//Debug.Log("else statement is ran");
 			gameObject.GetComponent<Renderer>().material.color = Color.red;
 			StartCoroutine("FadeOut");
 			Score.scoreValue -= 10;

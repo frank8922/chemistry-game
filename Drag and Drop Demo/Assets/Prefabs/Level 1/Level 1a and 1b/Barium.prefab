@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114748834982585420}
   m_Layer: 10
   m_Name: Barium
-  m_TagString: AlkalineElement
+  m_TagString: RightElement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1908444099085822}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.01, y: 1.97, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,11 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8405e8fd94cd4ee79f4598b4fabdec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: 0
-  maxSpeed: 0
-  beginInteraction: 0
-  endInteraction: 0
-  limitQuickness: 0.001
 --- !u!212 &212598450491055764
 SpriteRenderer:
   m_ObjectHideFlags: 1

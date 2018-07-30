@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1098433434181",
+    "firebase_url": "https://mdchem-232a6.firebaseio.com",
+    "project_id": "mdchem-232a6",
+    "storage_bucket": "mdchem-232a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098433434181:android:a40138f114e7ca16",
+        "android_client_info": {
+          "package_name": "com.mdcchem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098433434181-47r6mpilo2kspohpe3jg3n950ihmfmql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdcchem",
+            "certificate_hash": "1c1984d8a4ff677431817e7e27270d8cc5ffca89"
+          }
+        },
+        {
+          "client_id": "1098433434181-8n6slmf5ig8a2at4m06ftcv26fnpd155.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3EcHOtpv0TcFFjsd2lQtEURb17nXsWlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098433434181-8n6slmf5ig8a2at4m06ftcv26fnpd155.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1098433434181-fcic42o7lp2b5p6nhpsrkv946qc5nu0t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mdcchem"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

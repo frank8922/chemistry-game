@@ -11,6 +11,12 @@ TagManager:
   - AlkalineElement
   - BottomBoxCollider
   - Score
+  - RightBox
+  - LeftBox
+  - Time
+  - Undefined
+  - LeftElement
+  - RightElement
   layers:
   - Default
   - TransparentFX

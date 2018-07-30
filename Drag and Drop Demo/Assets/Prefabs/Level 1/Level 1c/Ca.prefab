@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114004701068392100}
   m_Layer: 10
   m_Name: Ca
-  m_TagString: AlkalineElement
+  m_TagString: RightElement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,8 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8405e8fd94cd4ee79f4598b4fabdec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: 0
-  maxSpeed: 0
 --- !u!212 &212186598372136524
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 
 public class ApplicationSet : MonoBehaviour {
@@ -11,14 +12,18 @@ public class ApplicationSet : MonoBehaviour {
 	void Awake () {
 		Application.targetFrameRate = 60;
 		Scene activeScene = SceneManager.GetActiveScene();
-		if(activeScene.buildIndex == 1){
+		/*
+		tweak these settings later
+		 */
+		 
+		if((activeScene.buildIndex == 2) || (activeScene.buildIndex == 5) || (activeScene.buildIndex == 8) || (activeScene.buildIndex == 11)){
 				DraggingObjects.gravity = -1.5f;
-				DraggingObjects.maxSpeed = 3.0f;
-			}else if(activeScene.buildIndex == 2){
-				DraggingObjects.gravity = -2.5f;
 				DraggingObjects.maxSpeed = 4.0f;
-			}else if(activeScene.buildIndex == 3){
-				DraggingObjects.gravity = -3.5f;
+			}else if((activeScene.buildIndex == 3) || (activeScene.buildIndex == 6) || (activeScene.buildIndex == 9) || (activeScene.buildIndex == 12)){
+				DraggingObjects.gravity = -2.5f;
+				DraggingObjects.maxSpeed = 5.0f;
+			}else if((activeScene.buildIndex == 4) || (activeScene.buildIndex == 7) || (activeScene.buildIndex == 10) || (activeScene.buildIndex == 13)){
+				DraggingObjects.gravity = -4.5f;
 				DraggingObjects.maxSpeed = 6.0f;
 			}else{
 				DraggingObjects.gravity = -1.0f;
@@ -45,6 +50,9 @@ public class ApplicationSet : MonoBehaviour {
 			Debug.Log("The aspect ratio is undefined");
 			Spawner.spawnDomain = 4;
 		}
+
+			
+			
 	}
 
 	public class AspectRatio{
@@ -93,6 +101,6 @@ public class ApplicationSet : MonoBehaviour {
 		return new Vector2((float)System.Math.Round(f * i, 2), i);
 	}
 }
-	
+
 
 }
