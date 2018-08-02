@@ -16,7 +16,7 @@ public class LevelSelector : MonoBehaviour {
 
 	void Start ()
 	{
-		
+		FindObjectOfType<AudioManager>().Play("levelselectnoise");
 		//PlayerPrefs.DeleteAll();
 		int levelReached = PlayerPrefs.GetInt("levelReached", 1);
 
@@ -31,6 +31,7 @@ public class LevelSelector : MonoBehaviour {
 
 	public void Select (string levelName)
 	{
+		FindObjectOfType<AudioManager>().Play("buttonnoise");
 		fader.FadeTo(levelName);
 	}
 	

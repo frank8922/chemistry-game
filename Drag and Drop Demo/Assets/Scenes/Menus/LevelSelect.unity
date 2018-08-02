@@ -1309,7 +1309,7 @@ Prefab:
     - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
         type: 2}
       propertyPath: sounds.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1372,6 +1372,31 @@ Prefab:
         type: 2}
       propertyPath: sounds.Array.data[6].name
       value: levelselectnoise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[7].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b29960cc2fe1a41f6ac0ae6d501ef93f, type: 3}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[7].volume
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[7].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[7].name
+      value: buttonnoise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[6].loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}

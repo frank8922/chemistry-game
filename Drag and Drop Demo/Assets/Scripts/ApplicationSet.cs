@@ -17,17 +17,17 @@ public class ApplicationSet : MonoBehaviour {
 		 */
 		 
 		if((activeScene.buildIndex == 2) || (activeScene.buildIndex == 5) || (activeScene.buildIndex == 8) || (activeScene.buildIndex == 11)){
-				DraggingObjects.gravity = -1.5f;
-				DraggingObjects.maxSpeed = 4.0f;
+				DraggingObjects.gravity = -1.0f;
+				DraggingObjects.maxSpeed = 2.0f;
 			}else if((activeScene.buildIndex == 3) || (activeScene.buildIndex == 6) || (activeScene.buildIndex == 9) || (activeScene.buildIndex == 12)){
-				DraggingObjects.gravity = -2.5f;
-				DraggingObjects.maxSpeed = 5.0f;
+				DraggingObjects.gravity = -2.0f;
+				DraggingObjects.maxSpeed = 3.0f;
 			}else if((activeScene.buildIndex == 4) || (activeScene.buildIndex == 7) || (activeScene.buildIndex == 10) || (activeScene.buildIndex == 13)){
-				DraggingObjects.gravity = -4.5f;
-				DraggingObjects.maxSpeed = 6.0f;
+				DraggingObjects.gravity = -4.0f;
+				DraggingObjects.maxSpeed = 5.0f;
 			}else{
 				DraggingObjects.gravity = -1.0f;
-				DraggingObjects.maxSpeed = 1.5f;
+				DraggingObjects.maxSpeed = 2.0f;
 			}
 
 		Vector2 aspectRatio = AspectRatio.GetAspectRatio(Screen.width, Screen.height);

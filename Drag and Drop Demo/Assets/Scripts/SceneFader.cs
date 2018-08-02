@@ -42,7 +42,7 @@ public class SceneFader : MonoBehaviour {
 			img.color = new Color(0f, 0f, 0f, a);
 			yield return 0;
 		}
-
+		FindObjectOfType<AudioManager>().Stop("levelselectnoise");
 		SceneManager.LoadScene(scene);
 	}
 

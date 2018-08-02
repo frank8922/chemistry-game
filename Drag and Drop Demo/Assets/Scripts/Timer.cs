@@ -14,7 +14,7 @@ but you have to meet the threshold of 100 score inorder to progress to the next 
 
 public class Timer : MonoBehaviour
 { 
-	float timeLeft = 5;
+	float timeLeft = 30;
 	Text countdownText;
 	public static int counter = 0;
 
@@ -29,11 +29,11 @@ public class Timer : MonoBehaviour
 
 		if (timeLeft <= 0)
 			{
-			//if(Score.scoreValue < 100){
-			// 	timeLeft = 15;
-			// }
-			// else
-			// {
+			if(Score.scoreValue < 100){
+			 	timeLeft = 15;
+			 }
+			 else
+			 {
 			//once this point is reached this means the player has reached the threshold of 100 points
 			//therefore they may progress to the next sublevel
 			StopCoroutine("SubtractTime");
@@ -41,7 +41,7 @@ public class Timer : MonoBehaviour
 			StartCoroutine("ChangeScene");
 			}
 		}
-	//}
+	}
 
 	/*
 	Once the thresh holds of time and score is reached the game needs to change the scene but we want to wait a couple 
@@ -68,7 +68,10 @@ public class Timer : MonoBehaviour
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
 				FindObjectOfType<AudioManager>().Stop("theme");
-				PlayerPrefs.SetInt("levelReached", 2);
+				if(PlayerPrefs.GetInt("levelReached") < 2){
+					PlayerPrefs.SetInt("levelReached", 2);
+				}
+				
 				Score.scoreValue  = 0;
 				SceneManager.LoadScene("LevelSelect");
 				
@@ -82,7 +85,9 @@ public class Timer : MonoBehaviour
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
 				FindObjectOfType<AudioManager>().Stop("theme");
-				PlayerPrefs.SetInt("levelReached", 3);
+				if(PlayerPrefs.GetInt("levelReached") < 3){
+					PlayerPrefs.SetInt("levelReached", 3);
+				}
 				Score.scoreValue  = 0;
 				SceneManager.LoadScene("LevelSelect");	
 				
@@ -96,7 +101,9 @@ public class Timer : MonoBehaviour
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
 				FindObjectOfType<AudioManager>().Stop("theme");
-				PlayerPrefs.SetInt("levelReached", 4);
+				if(PlayerPrefs.GetInt("levelReached") < 4){
+					PlayerPrefs.SetInt("levelReached", 4);
+				}
 				Score.scoreValue  = 0;
 				SceneManager.LoadScene("LevelSelect");
 			}
@@ -109,7 +116,9 @@ public class Timer : MonoBehaviour
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
 				FindObjectOfType<AudioManager>().Stop("theme");
-				PlayerPrefs.SetInt("levelReached", 5);
+				if(PlayerPrefs.GetInt("levelReached") < 5){
+					PlayerPrefs.SetInt("levelReached", 5);
+				}
 				Score.scoreValue  = 0;
 				SceneManager.LoadScene("LevelSelect");
 			}
