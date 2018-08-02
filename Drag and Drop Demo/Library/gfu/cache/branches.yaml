@@ -12,17 +12,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-07-11T17:45:55.413-04:00
-  initializedAtString: 2018-07-11T17:23:50.063-04:00
+  lastUpdatedAtString: 2018-08-01T19:58:43.519-04:00
+  initializedAtString: 2018-08-01T19:58:43.510-04:00
   localBranches:
-  - name: GAME-LOGIN-FIREBASE
-    tracking: origin/GAME-LOGIN-FIREBASE
+  - name: master
+    tracking: origin/master
   remoteBranches:
-  - name: origin/GAME-LOGIN-FIREBASE
-    tracking: '[None]'
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/RESTful
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
@@ -36,35 +32,23 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - GAME-LOGIN-FIREBASE
+    - master
     values:
-    - name: GAME-LOGIN-FIREBASE
+    - name: master
       remote:
         name: origin
         url: https://github.com/frank8922/chemistry-game.git
-      trackingBranch: GAME-LOGIN-FIREBASE
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - GAME-LOGIN-FIREBASE
       - HEAD
-      - RESTful
       - master
     subKeyValues:
     - Values:
-      - name: GAME-LOGIN-FIREBASE
-        remote:
-          name: origin
-          url: https://github.com/frank8922/chemistry-game.git
-        trackingBranch: 
       - name: HEAD
-        remote:
-          name: origin
-          url: https://github.com/frank8922/chemistry-game.git
-        trackingBranch: 
-      - name: RESTful
         remote:
           name: origin
           url: https://github.com/frank8922/chemistry-game.git

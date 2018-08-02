@@ -67,35 +67,27 @@ public class Timer : MonoBehaviour
 				SceneManager.LoadScene(4);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
+				FindObjectOfType<AudioManager>().Stop("theme");
 				PlayerPrefs.SetInt("levelReached", 2);
-				SceneManager.LoadScene("LevelSelect");
 				Score.scoreValue  = 0;
+				SceneManager.LoadScene("LevelSelect");
+				
 			}
 		}else if((SceneManager.GetActiveScene().name == "Level2a") || (SceneManager.GetActiveScene().name == "Level2b") || (SceneManager.GetActiveScene().name == "Level2c")){
 			if(counter == 0){
-				SceneManager.LoadScene(5);
+				SceneManager.LoadScene(6);
 				Score.scoreValue = 0;
 			}else if(counter == 1){
-				SceneManager.LoadScene(6);
+				SceneManager.LoadScene(7);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
+				FindObjectOfType<AudioManager>().Stop("theme");
 				PlayerPrefs.SetInt("levelReached", 3);
-				SceneManager.LoadScene("LevelSelect");
 				Score.scoreValue  = 0;
+				SceneManager.LoadScene("LevelSelect");	
+				
 			}
 		}else if((SceneManager.GetActiveScene().name == "Level3a") || (SceneManager.GetActiveScene().name == "Level3b") || (SceneManager.GetActiveScene().name == "Level3c")){
-			if(counter == 0){
-				SceneManager.LoadScene(7);
-				Score.scoreValue = 0;
-			}else if(counter == 1){
-				SceneManager.LoadScene(8);
-				Score.scoreValue  = 0;
-			}else if(counter == 2){
-				SceneManager.LoadScene("LevelSelect");
-				Score.scoreValue  = 0;
-				PlayerPrefs.SetInt("levelReached", 4);
-			}
-		}else if((SceneManager.GetActiveScene().name == "Level4a") || (SceneManager.GetActiveScene().name == "Level4b") || (SceneManager.GetActiveScene().name == "Level4c" )){
 			if(counter == 0){
 				SceneManager.LoadScene(9);
 				Score.scoreValue = 0;
@@ -103,9 +95,23 @@ public class Timer : MonoBehaviour
 				SceneManager.LoadScene(10);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
-				SceneManager.LoadScene("LevelSelect");
+				FindObjectOfType<AudioManager>().Stop("theme");
+				PlayerPrefs.SetInt("levelReached", 4);
 				Score.scoreValue  = 0;
+				SceneManager.LoadScene("LevelSelect");
+			}
+		}else if((SceneManager.GetActiveScene().name == "Level4a") || (SceneManager.GetActiveScene().name == "Level4b") || (SceneManager.GetActiveScene().name == "Level4c" )){
+			if(counter == 0){
+				SceneManager.LoadScene(12);
+				Score.scoreValue = 0;
+			}else if(counter == 1){
+				SceneManager.LoadScene(13);
+				Score.scoreValue  = 0;
+			}else if(counter == 2){
+				FindObjectOfType<AudioManager>().Stop("theme");
 				PlayerPrefs.SetInt("levelReached", 5);
+				Score.scoreValue  = 0;
+				SceneManager.LoadScene("LevelSelect");
 			}
 		}
 			timeLeft = 30; 

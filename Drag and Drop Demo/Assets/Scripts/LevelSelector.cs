@@ -16,8 +16,11 @@ public class LevelSelector : MonoBehaviour {
 
 	void Start ()
 	{
-		//PlayerPrefs.DeleteAll(); use this to reset the sharedprefs
+		
+		//PlayerPrefs.DeleteAll();
 		int levelReached = PlayerPrefs.GetInt("levelReached", 1);
+
+		
 
 		for (int i = 0; i < levelButtons.Length; i++)
 		{

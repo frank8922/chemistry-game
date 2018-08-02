@@ -60,6 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3/VideoAnimationLevel3.unity
     guid: 7573a9aa5443c4e9fbe40efbb21cfcc5
   - enabled: 1
-    path: Assets/Scenes/Level4/VideoAnimation4.unity
+    path: Assets/Scenes/Level4/VideoAnimationLevel4.unity
     guid: 9d4ffe2544ac6472cab3e9c0aa485f6b
   m_configObjects: {}

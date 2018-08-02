@@ -202,7 +202,7 @@ Camera:
   m_GameObject: {fileID: 267373961}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -558,7 +558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 0.000022888184}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &478324030
@@ -1298,6 +1298,83 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1338234662
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784809650443858, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5bd3aa98301b642398f4628cde598979, type: 3}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[6].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 58fe6d2a073af40e4b7417809a8a3126, type: 3}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[6].volume
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[6].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114252568745970912, guid: 6e7e1150b31614308b90c98507bae3f6,
+        type: 2}
+      propertyPath: sounds.Array.data[6].name
+      value: levelselectnoise
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6e7e1150b31614308b90c98507bae3f6, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &1415562801 stripped
 MonoBehaviour:

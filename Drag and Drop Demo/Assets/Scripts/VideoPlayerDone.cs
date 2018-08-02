@@ -41,12 +41,15 @@ public class VideoPlayerDone : MonoBehaviour {
 			Timer.counter = 0;
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel2"){
 			SceneManager.LoadScene("Level2a");
+			FindObjectOfType<AudioManager>().Play("theme");
 			Timer.counter = 0;
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel3"){
 			SceneManager.LoadScene("Level3a");
+			FindObjectOfType<AudioManager>().Play("theme");
 			Timer.counter = 0;
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel4"){
 			SceneManager.LoadScene("Level4a");
+			FindObjectOfType<AudioManager>().Play("theme");
 			Timer.counter = 0;
 		}else{
 			Debug.Log("This is the else statement of the endreached event");

@@ -53,4 +53,15 @@ public class AudioManager : MonoBehaviour {
 		}
 		s.source.Play();
 	}
+
+	//Think of way to fade the music and then stop it
+
+	public void Stop(string name){
+		Sound s = Array.Find(sounds, sound => sound.name == name);
+		if(s==null){
+			Debug.LogWarning("Sound: " +  name + " not fond!");
+			return;
+		}
+		s.source.Stop();
+	}
 }

@@ -47,6 +47,7 @@ public class DraggingObjects : MonoBehaviour {
 	}
 	void OnMouseDown(){
 		beginInteraction = DateTime.Now;
+		rb.velocity = new Vector2(0,0);;
 	}
 
 	//OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.

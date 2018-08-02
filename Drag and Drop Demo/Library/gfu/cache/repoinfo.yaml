@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-11T17:46:29.946-04:00
-  initializedAtString: 2018-07-11T16:38:26.927-04:00
+  lastUpdatedAtString: 2018-08-01T20:17:31.720-04:00
+  initializedAtString: 2018-08-01T20:17:31.720-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/frank8922/chemistry-game.git
@@ -23,15 +23,15 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: GAME-LOGIN-FIREBASE
-    tracking: origin/GAME-LOGIN-FIREBASE
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: GAME-LOGIN-FIREBASE
+    name: master
     remote:
       name: origin
       url: https://github.com/frank8922/chemistry-game.git
-    trackingBranch: GAME-LOGIN-FIREBASE
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/frank8922/chemistry-game.git
-  currentHead: f525ba5
+  currentHead: 4661b267
