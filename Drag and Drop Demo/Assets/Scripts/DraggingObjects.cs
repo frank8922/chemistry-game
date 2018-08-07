@@ -87,6 +87,7 @@ public class DraggingObjects : MonoBehaviour {
 		}
 		else if (other.gameObject.CompareTag("BottomBoxCollider")) 
 		{ 
+			//possibly make it take -5 points away
             Destroy(gameObject);
 			//Debug.Log(gameObject.name + " destroyed by " + other.name);
 			FindObjectOfType<AudioManager>().Play("destroy");

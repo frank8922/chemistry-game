@@ -12,42 +12,114 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-02T02:16:50.997-04:00
-  initializedAtString: 2018-08-02T02:07:02.901-04:00
+  lastUpdatedAtString: 2018-08-07T11:10:24.279-06:00
+  initializedAtString: 2018-08-07T11:10:23.226-06:00
   entries:
+  - path: Drag and Drop Demo/Assembly-CSharp.csproj
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/NoAnswer.anim
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/NoAnswer.anim
+    projectPath: Assets/Animation/NoAnswer.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/NoAnswer.anim.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/NoAnswer.anim.meta
+    projectPath: Assets/Animation/NoAnswer.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/QuizGameAnimator.controller
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/QuizGameAnimator.controller
+    projectPath: Assets/Animation/QuizGameAnimator.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/QuizGameAnimator.controller.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/QuizGameAnimator.controller.meta
+    projectPath: Assets/Animation/QuizGameAnimator.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/TrueAnswer.anim
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/TrueAnswer.anim
+    projectPath: Assets/Animation/TrueAnswer.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/TrueAnswer.anim.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/TrueAnswer.anim.meta
+    projectPath: Assets/Animation/TrueAnswer.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/WrongAnswer.anim
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/WrongAnswer.anim
+    projectPath: Assets/Animation/WrongAnswer.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Animation/WrongAnswer.anim.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Animation/WrongAnswer.anim.meta
+    projectPath: Assets/Animation/WrongAnswer.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/detectbuttonpress.cs
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/detectbuttonpress.cs
+    projectPath: Assets/detectbuttonpress.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/detectbuttonpress.cs.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/detectbuttonpress.cs.meta
+    projectPath: Assets/detectbuttonpress.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Drag and Drop Demo/Assets/Scenes/Level5/QuizGame.unity
     fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scenes/Level5/QuizGame.unity
     projectPath: Assets/Scenes/Level5/QuizGame.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Assets/Scenes/Menus/LevelSelect.unity
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scenes/Menus/LevelSelect.unity
-    projectPath: Assets/Scenes/Menus/LevelSelect.unity
+  - path: Drag and Drop Demo/Assets/Scenes/Level6.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scenes/Level6.meta
+    projectPath: Assets/Scenes/Level6.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Scenes/Level7.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scenes/Level7.meta
+    projectPath: Assets/Scenes/Level7.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Scenes/Level7/proto.unity
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scenes/Level7/proto.unity
+    projectPath: Assets/Scenes/Level7/proto.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Scenes/Level7/proto.unity.meta
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scenes/Level7/proto.unity.meta
+    projectPath: Assets/Scenes/Level7/proto.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Assets/Scripts/DraggingObjects.cs
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scripts/DraggingObjects.cs
+    projectPath: Assets/Scripts/DraggingObjects.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Assets/Scripts/ApplicationSet.cs
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scripts/ApplicationSet.cs
-    projectPath: Assets/Scripts/ApplicationSet.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Drag and Drop Demo/Assets/Scripts/LevelSelector.cs
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scripts/LevelSelector.cs
-    projectPath: Assets/Scripts/LevelSelector.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Drag and Drop Demo/Assets/Scripts/SceneFader.cs
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scripts/SceneFader.cs
-    projectPath: Assets/Scripts/SceneFader.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Drag and Drop Demo/Assets/Scripts/Timer.cs
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scripts/Timer.cs
-    projectPath: Assets/Scripts/Timer.cs
+  - path: Drag and Drop Demo/Assets/Scripts/QuizManager.cs
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Assets/Scripts/QuizManager.cs
+    projectPath: Assets/Scripts/QuizManager.cs
     originalPath: 
     status: 3
     staged: 0
@@ -56,12 +128,6 @@ MonoBehaviour:
     projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Drag and Drop Demo/Library/CrashedAssetImports.txt
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/CrashedAssetImports.txt
-    projectPath: Library/CrashedAssetImports.txt
-    originalPath: 
-    status: 1
     staged: 0
   - path: Drag and Drop Demo/Library/CurrentLayout.dwlt
     fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/CurrentLayout.dwlt
@@ -73,17 +139,17 @@ MonoBehaviour:
     fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/EditorUserBuildSettings.asset
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/EditorUserBuildSettings.asset
+    projectPath: Library/EditorUserBuildSettings.asset
+    originalPath: 
     status: 3
     staged: 0
   - path: Drag and Drop Demo/Library/expandedItems
     fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/expandedItems
     projectPath: Library/expandedItems
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Drag and Drop Demo/Library/gfu/cache/branches.yaml
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/gfu/cache/branches.yaml
-    projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -117,27 +183,393 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Library/metadata/2e/2eeb3cc128b0cda44b99981b8d99cfb8
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/2e/2eeb3cc128b0cda44b99981b8d99cfb8
-    projectPath: Library/metadata/2e/2eeb3cc128b0cda44b99981b8d99cfb8
+  - path: Drag and Drop Demo/Library/LastBuild.buildreport
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/LastBuild.buildreport
+    projectPath: Library/LastBuild.buildreport
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Library/metadata/64/64d011816c7b94dd7a7c02b441f3c437
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/64/64d011816c7b94dd7a7c02b441f3c437
-    projectPath: Library/metadata/64/64d011816c7b94dd7a7c02b441f3c437
+  - path: Drag and Drop Demo/Library/metadata/30/30c06cf2660074410b6e641824dceb31
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/30/30c06cf2660074410b6e641824dceb31
+    projectPath: Library/metadata/30/30c06cf2660074410b6e641824dceb31
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/30/30c06cf2660074410b6e641824dceb31.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/30/30c06cf2660074410b6e641824dceb31.info
+    projectPath: Library/metadata/30/30c06cf2660074410b6e641824dceb31.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/4c/4cd6b4f64e63349b387201e0c771f084
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/4c/4cd6b4f64e63349b387201e0c771f084
+    projectPath: Library/metadata/4c/4cd6b4f64e63349b387201e0c771f084
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/4c/4cd6b4f64e63349b387201e0c771f084.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/4c/4cd6b4f64e63349b387201e0c771f084.info
+    projectPath: Library/metadata/4c/4cd6b4f64e63349b387201e0c771f084.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/60/6016aeef4f92648b9a7530107f07cf16
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/60/6016aeef4f92648b9a7530107f07cf16
+    projectPath: Library/metadata/60/6016aeef4f92648b9a7530107f07cf16
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/60/6016aeef4f92648b9a7530107f07cf16.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/60/6016aeef4f92648b9a7530107f07cf16.info
+    projectPath: Library/metadata/60/6016aeef4f92648b9a7530107f07cf16.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/7d/7dc2588fd298744d09167763551ae77d
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/7d/7dc2588fd298744d09167763551ae77d
+    projectPath: Library/metadata/7d/7dc2588fd298744d09167763551ae77d
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Library/metadata/70/70ed8cdf186d687418b7eb1f51756d53
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/70/70ed8cdf186d687418b7eb1f51756d53
-    projectPath: Library/metadata/70/70ed8cdf186d687418b7eb1f51756d53
+  - path: Drag and Drop Demo/Library/metadata/91/91c56680b933d4f84b9cbe12584b6689
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/91/91c56680b933d4f84b9cbe12584b6689
+    projectPath: Library/metadata/91/91c56680b933d4f84b9cbe12584b6689
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/91/91c56680b933d4f84b9cbe12584b6689.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/91/91c56680b933d4f84b9cbe12584b6689.info
+    projectPath: Library/metadata/91/91c56680b933d4f84b9cbe12584b6689.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/94/942a29ae31c6c4974abb6bdbd66d3081
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/94/942a29ae31c6c4974abb6bdbd66d3081
+    projectPath: Library/metadata/94/942a29ae31c6c4974abb6bdbd66d3081
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/94/942a29ae31c6c4974abb6bdbd66d3081.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/94/942a29ae31c6c4974abb6bdbd66d3081.info
+    projectPath: Library/metadata/94/942a29ae31c6c4974abb6bdbd66d3081.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/a8/a8405e8fd94cd4ee79f4598b4fabdec0
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/a8/a8405e8fd94cd4ee79f4598b4fabdec0
+    projectPath: Library/metadata/a8/a8405e8fd94cd4ee79f4598b4fabdec0
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Library/metadata/d7/d71975ed12eaf498d996a693441917db
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/d7/d71975ed12eaf498d996a693441917db
-    projectPath: Library/metadata/d7/d71975ed12eaf498d996a693441917db
+  - path: Drag and Drop Demo/Library/metadata/af/af7bae668b38244229dac3e8f8380e55
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/af/af7bae668b38244229dac3e8f8380e55
+    projectPath: Library/metadata/af/af7bae668b38244229dac3e8f8380e55
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/af/af7bae668b38244229dac3e8f8380e55.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/af/af7bae668b38244229dac3e8f8380e55.info
+    projectPath: Library/metadata/af/af7bae668b38244229dac3e8f8380e55.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/ba/ba4c94329daf340e59f3e963c92ae4da
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/ba/ba4c94329daf340e59f3e963c92ae4da
+    projectPath: Library/metadata/ba/ba4c94329daf340e59f3e963c92ae4da
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/ba/ba4c94329daf340e59f3e963c92ae4da.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/ba/ba4c94329daf340e59f3e963c92ae4da.info
+    projectPath: Library/metadata/ba/ba4c94329daf340e59f3e963c92ae4da.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/c6/c6a3dec84826349b6bda11ed712848f5
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/c6/c6a3dec84826349b6bda11ed712848f5
+    projectPath: Library/metadata/c6/c6a3dec84826349b6bda11ed712848f5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/metadata/c6/c6a3dec84826349b6bda11ed712848f5.info
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/metadata/c6/c6a3dec84826349b6bda11ed712848f5.info
+    projectPath: Library/metadata/c6/c6a3dec84826349b6bda11ed712848f5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/boot.config
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/boot.config
+    projectPath: Library/PlayerDataCache/Data/boot.config
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/globalgamemanagers
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/globalgamemanagers
+    projectPath: Library/PlayerDataCache/Data/globalgamemanagers
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/globalgamemanagers.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/globalgamemanagers.assets
+    projectPath: Library/PlayerDataCache/Data/globalgamemanagers.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level0
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level0
+    projectPath: Library/PlayerDataCache/Data/level0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level1
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level1
+    projectPath: Library/PlayerDataCache/Data/level1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level10
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level10
+    projectPath: Library/PlayerDataCache/Data/level10
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level11
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level11
+    projectPath: Library/PlayerDataCache/Data/level11
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level12
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level12
+    projectPath: Library/PlayerDataCache/Data/level12
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level13
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level13
+    projectPath: Library/PlayerDataCache/Data/level13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level14
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level14
+    projectPath: Library/PlayerDataCache/Data/level14
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level15
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level15
+    projectPath: Library/PlayerDataCache/Data/level15
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level16
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level16
+    projectPath: Library/PlayerDataCache/Data/level16
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level17
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level17
+    projectPath: Library/PlayerDataCache/Data/level17
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level18
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level18
+    projectPath: Library/PlayerDataCache/Data/level18
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level2
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level2
+    projectPath: Library/PlayerDataCache/Data/level2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level3
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level3
+    projectPath: Library/PlayerDataCache/Data/level3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level4
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level4
+    projectPath: Library/PlayerDataCache/Data/level4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level5
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level5
+    projectPath: Library/PlayerDataCache/Data/level5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level6
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level6
+    projectPath: Library/PlayerDataCache/Data/level6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level7
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level7
+    projectPath: Library/PlayerDataCache/Data/level7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level8
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level8
+    projectPath: Library/PlayerDataCache/Data/level8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/level9
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/level9
+    projectPath: Library/PlayerDataCache/Data/level9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll
+    projectPath: Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll.mdb
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll.mdb
+    projectPath: Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/resources.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/resources.assets
+    projectPath: Library/PlayerDataCache/Data/resources.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets0.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets0.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets0.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets0.resource
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets0.resource
+    projectPath: Library/PlayerDataCache/Data/sharedassets0.resource
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets1.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets1.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets1.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets10.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets10.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets10.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets11.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets11.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets11.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets12.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets12.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets12.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets13.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets13.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets13.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets14.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets14.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets14.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets15.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets15.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets15.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets16.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets16.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets16.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets17.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets17.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets17.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets18.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets18.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets18.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets2.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets2.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets2.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets3.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets3.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets3.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets4.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets4.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets4.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets5.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets5.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets5.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets6.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets6.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets6.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets7.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets7.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets7.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets8.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets8.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets8.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets9.assets
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/Data/sharedassets9.assets
+    projectPath: Library/PlayerDataCache/Data/sharedassets9.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/PlayerDataCache/ScriptLayoutHashes.txt
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/PlayerDataCache/ScriptLayoutHashes.txt
+    projectPath: Library/PlayerDataCache/ScriptLayoutHashes.txt
     originalPath: 
     status: 3
     staged: 0
@@ -153,15 +585,51 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Library/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler7.log
     originalPath: 
     status: 3
     staged: 0
@@ -177,21 +645,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Drag and Drop Demo/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Drag and Drop Demo/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Drag and Drop Demo/Temp/__Backupscenes/0.backup
-    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Temp/__Backupscenes/0.backup
-    projectPath: Temp/__Backupscenes/0.backup
+  - path: Drag and Drop Demo/Temp/UnityLockfile
+    fullPath: /Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
     originalPath: 
     status: 1
     staged: 0

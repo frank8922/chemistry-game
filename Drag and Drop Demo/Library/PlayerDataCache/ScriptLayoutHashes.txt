@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/macbuild.app
+/Users/tvvizzlemac/Unity Projects/chemistry-game/Drag and Drop Demo/mac.app
 SceneListBegin?
 Assets/Scenes/Menus/LevelSelect.unity
 Assets/Scenes/Menus/Login Scene.unity
@@ -313,7 +313,7 @@ db5b248ef8b491a6b6c641eb213898c7 Assembly-CSharp.dll:.ToggleAnim
 a69b3ee0402770d02d1c122324e4b00e Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 b445712ecaa2f792cee7d8b8a92eed7a Assembly-CSharp.dll:.DisableObject
 403fcf569ca34c9e12ec24b843c7a1d1 Assembly-CSharp.dll:.Example04
-43907d2636fa2c8e053f8b6097be2d52 Assembly-CSharp.dll:.QuizManager
+bd4d420ade5408678e916df3f7c7eb81 Assembly-CSharp.dll:.QuizManager
 93f012e16aa688d612fc500087debedb Assembly-CSharp.dll:.GET
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DraggingObjects
 a885b5718618457f4959f03284f3d6c2 Assembly-CSharp.dll:MaterialUI.TextInputLine
