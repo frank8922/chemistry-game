@@ -10,6 +10,10 @@ public class QuizManager : MonoBehaviour {
 	public Question[] questions;
 	private static List<Question> unansweredQuestions;
 	private Question currentQuestion;
+	
+	[SerializeField]
+	public Button TrueButton,FalseButton;
+
 
 	[SerializeField]
 	private Text factText;
@@ -29,21 +33,37 @@ public class QuizManager : MonoBehaviour {
 	public static int score = 0;
 	public static int numWrong = 0;
 	public SceneFader fader;
+	public static int count = 0;
 
 	void Start()
 	{
+		if(count <= 0){
+			FindObjectOfType<AudioManager>().Play("quizgamenoise");
+		}
+		count++;
+		
 		Debug.Log("Number Wrong " + numWrong);
 		Debug.Log("Number Correct " + score);
-		//do something at a certain score
-		if(score == 4){
-			Debug.Log("4 correct answers");
+		//move on to the next level
+		if(score >= 6){
+			if(PlayerPrefs.GetInt("levelReached") < 6)
+			{
+				PlayerPrefs.SetInt("levelReached", 6);
+			}
+			score = 0;
+			count = 0;
+			numWrong = 0;
+			FindObjectOfType<AudioManager>().Stop("quizgamenoise");
+			SceneManager.LoadScene("LevelSelect");
 		}
-		//do something at a certain incorrect score
-		if(numWrong == 4){
-			Debug.Log("4 wrong answers");
-			PlayerPrefs.SetInt("levelReached", 1);
-			fader.FadeTo("LevelSelect");
-			
+		//show student animations for levels 1,2,3,4
+		if(numWrong >= 6){
+			score = 0;
+			count = 0;
+			numWrong = 0;
+			Debug.Log("Student hasnt learned");
+			FindObjectOfType<AudioManager>().Stop("quizgamenoise");
+			SceneManager.LoadScene("VideoAnimationLevel1234");
 		}
 		if(unansweredQuestions == null || unansweredQuestions.Count == 0)
 		{
@@ -90,11 +110,19 @@ public class QuizManager : MonoBehaviour {
 	public void UserSelectTrue(){
 		animator.SetTrigger("True");
 		if(currentQuestion.isTrue){
+			FindObjectOfType<AudioManager>().Play("truenoise");
 			score += 1;
+			TrueButton.enabled = false;
+			FalseButton.enabled = false;
 			Debug.Log("CORRECT!");
+			
+
 			//play correct noise
 		}else{
+			FindObjectOfType<AudioManager>().Play("falsenoise");
 			numWrong += 1;
+			TrueButton.enabled = false;
+			FalseButton.enabled = false;
 			Debug.Log("INCORRECT!");
 			//play incorrect noise
 		}
@@ -104,11 +132,17 @@ public class QuizManager : MonoBehaviour {
 	public void UserSelectFalse(){
 		animator.SetTrigger("False");
 		if(!currentQuestion.isTrue){
+			FindObjectOfType<AudioManager>().Play("truenoise");
 			score+=1;
 			Debug.Log("CORRECT!");
+			TrueButton.enabled = false;
+			FalseButton.enabled = false;
 			//play correct noise
 		}else{
+			FindObjectOfType<AudioManager>().Play("falsenoise");
 			numWrong += 1;
+			TrueButton.enabled = false;
+			FalseButton.enabled = false;
 			Debug.Log("INCORRECT!");
 			//play incorrect noise
 		}

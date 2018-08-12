@@ -36,23 +36,28 @@ public class VideoPlayerDone : MonoBehaviour {
 		Debug.Log("End of the video animation");
        	videoPlayer.Stop();
 		if(SceneManager.GetActiveScene().name == "VideoAnimationLevel1"){
+			FindObjectOfType<AudioManager>().Play("theme");
+			Timer.counter = 0;
 			SceneManager.LoadScene("Level1a");
-			FindObjectOfType<AudioManager>().Play("theme");
-			Timer.counter = 0;
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel2"){
+			FindObjectOfType<AudioManager>().Play("theme");
+			Timer.counter = 0;
 			SceneManager.LoadScene("Level2a");
-			FindObjectOfType<AudioManager>().Play("theme");
-			Timer.counter = 0;
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel3"){
+			FindObjectOfType<AudioManager>().Play("theme");
+			Timer.counter = 0;
 			SceneManager.LoadScene("Level3a");
-			FindObjectOfType<AudioManager>().Play("theme");
-			Timer.counter = 0;
+			
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel4"){
-			SceneManager.LoadScene("Level4a");
 			FindObjectOfType<AudioManager>().Play("theme");
 			Timer.counter = 0;
-		}else{
-			Debug.Log("This is the else statement of the endreached event");
+			SceneManager.LoadScene("Level4a");
+			
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel1234"){
+			QuizManager.score = 0;
+			QuizManager.numWrong = 0;
+			QuizManager.count = 0;
+			SceneManager.LoadScene("QuizGame");
 		}
 		
     }
