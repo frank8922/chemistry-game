@@ -17,6 +17,13 @@ TagManager:
   - Undefined
   - LeftElement
   - RightElement
+  - +1
+  - +2
+  - MaterialText
+  - MaterialButtonLayer
+  - -1
+  - -2
+  - -3
   layers:
   - Default
   - TransparentFX

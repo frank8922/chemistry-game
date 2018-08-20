@@ -389,47 +389,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - fact: Na is an Alkali Metal?
+  - fact: Na is an Alkali Metal.
     isTrue: 1
-  - fact: K is an Alkaline Earth Metal?
+  - fact: K is an Alkaline Earth Metal.
     isTrue: 0
-  - fact: Be is an Alkaline Earth Metal?
+  - fact: Be is an Alkaline Earth Metal.
     isTrue: 1
-  - fact: Mg is a Transition Metal?
+  - fact: Mg is a Transition Metal.
     isTrue: 0
-  - fact: F is a Halogen?
+  - fact: F is a Halogen.
     isTrue: 1
-  - fact: Br is a Halogen?
+  - fact: Br is a Halogen.
     isTrue: 1
-  - fact: Mn is a Transition Metal?
+  - fact: Mn is a Transition Metal.
     isTrue: 1
-  - fact: Fe is an Alkali Metal?
+  - fact: Fe is an Alkali Metal.
     isTrue: 0
-  - fact: Cu is in Group 6A?
+  - fact: Cu is in Group 6A.
     isTrue: 0
-  - fact: Zn is a Transition Metal?
+  - fact: Zn is a Transition Metal.
     isTrue: 1
-  - fact: N is in Group 5A?
+  - fact: N is in Group 5A.
     isTrue: 1
-  - fact: O is in Group 6A?
+  - fact: O is in Group 6A.
     isTrue: 1
-  - fact: K is an Alkali Metal?
+  - fact: K is an Alkali Metal.
     isTrue: 1
-  - fact: Mg is an Alkaline Earth Metal?
+  - fact: Mg is an Alkaline Earth Metal.
     isTrue: 1
-  - fact: F is a Noble Gas?
+  - fact: F is a Noble Gas.
     isTrue: 0
-  - fact: Fe is a Transition Metal?
+  - fact: Fe is a Transition Metal.
     isTrue: 1
-  - fact: Cu is a Transition Metal?
+  - fact: Cu is a Transition Metal.
     isTrue: 1
-  - fact: B is a Metalloid?
+  - fact: B is a Metalloid.
     isTrue: 1
-  - fact: As is a Noble Gas?
+  - fact: As is a Noble Gas.
     isTrue: 0
-  - fact: He is a Noble Gas?
+  - fact: He is a Noble Gas.
     isTrue: 1
-  - fact: Ar is a Halogen?
+  - fact: Ar is a Halogen.
     isTrue: 0
   TrueButton: {fileID: 593061604}
   FalseButton: {fileID: 673252659}
@@ -2200,13 +2200,13 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 702637145}
   - clip: {fileID: 8300000, guid: 37ba5c964f26342f2a007dfbe8109cec, type: 3}
-    volume: 0.5
+    volume: 1
     pitch: 1
     name: truenoise
     loop: 0
     source: {fileID: 702637145}
-  - clip: {fileID: 8300000, guid: 133059acda9b449e6bfa195f6a15dd7d, type: 3}
-    volume: 0.5
+  - clip: {fileID: 8300000, guid: 41f6d55c694a64c0790a22c47e9db58b, type: 3}
+    volume: 1
     pitch: 1
     name: falsenoise
     loop: 0

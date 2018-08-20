@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\detectbuttonpress.cs" />
+     <Compile Include="Assets\Draggable.cs" />
+     <Compile Include="Assets\DraggableGameManager.cs" />
+     <Compile Include="Assets\GameHandler.cs" />
      <Compile Include="Assets\GoogleSignIn\Future.cs" />
      <Compile Include="Assets\GoogleSignIn\GoogleSignIn.cs" />
      <Compile Include="Assets\GoogleSignIn\GoogleSignInConfiguration.cs" />
@@ -121,12 +123,19 @@
      <Compile Include="Assets\Modern UI Pack\Scripts\ToggleAnim.cs" />
      <Compile Include="Assets\Scripts\ApplicationSet.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\ColliderBridge.cs" />
+     <Compile Include="Assets\Scripts\ColliderListener.cs" />
+     <Compile Include="Assets\Scripts\detectbuttonpress.cs" />
      <Compile Include="Assets\Scripts\DisableObject.cs" />
+     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
      <Compile Include="Assets\Scripts\DraggingObjects.cs" />
+     <Compile Include="Assets\Scripts\DragHandler.cs" />
+     <Compile Include="Assets\Scripts\ElementDragAndDrop.cs" />
      <Compile Include="Assets\Scripts\FirebaseScript.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GET.cs" />
      <Compile Include="Assets\Scripts\GoogleSignOnController.cs" />
+     <Compile Include="Assets\Scripts\InventoryScript.cs" />
      <Compile Include="Assets\Scripts\LevelSelector.cs" />
      <Compile Include="Assets\Scripts\Managers\AuthManager.cs" />
      <Compile Include="Assets\Scripts\Managers\DatabaseManager.cs" />
@@ -137,6 +146,7 @@
      <Compile Include="Assets\Scripts\QuizManager.cs" />
      <Compile Include="Assets\Scripts\SceneFader.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Slot.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Student.cs" />

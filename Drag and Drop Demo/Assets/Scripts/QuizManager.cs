@@ -45,7 +45,7 @@ public class QuizManager : MonoBehaviour {
 		Debug.Log("Number Wrong " + numWrong);
 		Debug.Log("Number Correct " + score);
 		//move on to the next level
-		if(score >= 6){
+		if(score >= 15){
 			if(PlayerPrefs.GetInt("levelReached") < 6)
 			{
 				PlayerPrefs.SetInt("levelReached", 6);

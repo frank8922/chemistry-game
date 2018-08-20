@@ -113,16 +113,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1051915672
+--- !u!1 &179165408
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1051915675}
-  - component: {fileID: 1051915674}
-  - component: {fileID: 1051915673}
+  - component: {fileID: 179165411}
+  - component: {fileID: 179165410}
+  - component: {fileID: 179165409}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -130,19 +130,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1051915673
+--- !u!81 &179165409
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1051915672}
+  m_GameObject: {fileID: 179165408}
   m_Enabled: 1
---- !u!20 &1051915674
+--- !u!20 &179165410
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1051915672}
+  m_GameObject: {fileID: 179165408}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -177,12 +177,12 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1051915675
+--- !u!4 &179165411
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1051915672}
+  m_GameObject: {fileID: 179165408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -190,15 +190,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2024741515
+--- !u!1 &1285455216
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2024741517}
-  - component: {fileID: 2024741516}
+  - component: {fileID: 1285455218}
+  - component: {fileID: 1285455217}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -206,12 +206,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!108 &2024741516
+--- !u!108 &1285455217
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2024741515}
+  m_GameObject: {fileID: 1285455216}
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
@@ -243,12 +243,12 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!4 &2024741517
+--- !u!4 &1285455218
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2024741515}
+  m_GameObject: {fileID: 1285455216}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
