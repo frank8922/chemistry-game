@@ -8,7 +8,7 @@ public class Draggable : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Vector3 originalPosition;
-    public bool col;
+    public bool col,cond;
 
     public Transform originalParent, copyOfOtherParent;
     public Vector3 otherPosition;
@@ -230,10 +230,11 @@ public class Draggable : MonoBehaviour
         }
         else
         {
-			if(!col)
-			{
-				FindObjectOfType<AudioManager>().Play("falsenoise");
-			}
+            if(cond){
+                FindObjectOfType<AudioManager>().Play("falsenoise");
+                cond = false;
+            }
+			
             transform.position = originalParent.position;
             transform.parent = originalParent;
 
@@ -262,6 +263,7 @@ public class Draggable : MonoBehaviour
             Handheld.Vibrate();
             col = false;
             other.enabled = true;
+            cond = true;
         }
 
 
