@@ -562,7 +562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000022888184}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 94.70001}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &478324030
@@ -887,7 +887,7 @@ Prefab:
     - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: QuizGame
+      value: VideoAnimationLevel1234
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -1330,7 +1330,7 @@ Prefab:
     - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level8
+      value: VideoAnimationLevel8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -1464,7 +1464,7 @@ Prefab:
     - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level6a
+      value: VideoAnimationLevel6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -2213,7 +2213,7 @@ Prefab:
     - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level7
+      value: VideoAnimationLevel7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -3432,7 +3432,7 @@ Prefab:
     - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level9
+      value: VideoAnimationLevel9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}

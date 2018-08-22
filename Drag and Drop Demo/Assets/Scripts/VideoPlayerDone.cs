@@ -58,6 +58,14 @@ public class VideoPlayerDone : MonoBehaviour {
 			QuizManager.numWrong = 0;
 			QuizManager.count = 0;
 			SceneManager.LoadScene("QuizGame");
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel6"){
+			SceneManager.LoadScene("Level6a");
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel7"){
+			SceneManager.LoadScene("Level7");
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel8"){
+			SceneManager.LoadScene("Level8");
+		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel9"){
+			SceneManager.LoadScene("Level9");
 		}
 		
     }

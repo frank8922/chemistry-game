@@ -216,7 +216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 900, y: -99.99999}
+  m_AnchoredPosition: {x: 900, y: -99.999985}
   m_SizeDelta: {x: 240, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &9357991
@@ -308,6 +308,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 349691564}
     m_Modifications:
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -426,13 +431,43 @@ Prefab:
     - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114416635564908340, guid: 4cc287fc9fba7491f8d0fb7a27f621be,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61884594886258224, guid: 4cc287fc9fba7491f8d0fb7a27f621be, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 4cc287fc9fba7491f8d0fb7a27f621be, type: 2}
@@ -444,6 +479,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 766712174}
     m_Modifications:
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -557,13 +597,43 @@ Prefab:
     - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114631110436445988, guid: 11ca89c5a046940e9b1a12b4afae2305,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61899416345422056, guid: 11ca89c5a046940e9b1a12b4afae2305, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 11ca89c5a046940e9b1a12b4afae2305, type: 2}
@@ -768,6 +838,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
         type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
       propertyPath: questionArray.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -879,13 +954,43 @@ Prefab:
     - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114363076820271592, guid: 03ab92c8423cf433cb14dc0cfeed7df5,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61912095318258928, guid: 03ab92c8423cf433cb14dc0cfeed7df5, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 03ab92c8423cf433cb14dc0cfeed7df5, type: 2}
@@ -1153,7 +1258,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.7096659}
   m_AnchorMax: {x: 1, y: 0.9902768}
   m_AnchoredPosition: {x: 0, y: 1}
-  m_SizeDelta: {x: 0, y: -87.24566}
+  m_SizeDelta: {x: 0, y: -69.24417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374070957
 MonoBehaviour:
@@ -1447,6 +1552,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
         type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
       propertyPath: questionArray.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1573,13 +1683,43 @@ Prefab:
     - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114723063931680536, guid: 213226276c0954e4bb1b2e1c0700b0b8,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61022280625982350, guid: 213226276c0954e4bb1b2e1c0700b0b8, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 213226276c0954e4bb1b2e1c0700b0b8, type: 2}
@@ -1652,7 +1792,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drag all the +1 ions above.
+  m_Text: Which elements have a +1 charge?
 --- !u!222 &509187425
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1720,6 +1860,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 281025683}
     m_Modifications:
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -1853,13 +1998,43 @@ Prefab:
     - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114700970676706734, guid: 2a63599b1c5ff419488838e791dc5bc4,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a63599b1c5ff419488838e791dc5bc4, type: 2}
   m_IsPrefabAsset: 0
@@ -2349,6 +2524,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
         type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
       propertyPath: questionArray.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -2470,13 +2650,43 @@ Prefab:
     - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114029646748890622, guid: ab91cf9cca86542aea8e5065b9700e2f,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab91cf9cca86542aea8e5065b9700e2f, type: 2}
   m_IsPrefabAsset: 0
@@ -2581,6 +2791,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1608005819}
     m_Modifications:
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -2694,13 +2909,43 @@ Prefab:
     - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114467156592355582, guid: 507f26bac8df342b7b5b9e30d59b2edd,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61463291872673094, guid: 507f26bac8df342b7b5b9e30d59b2edd, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 507f26bac8df342b7b5b9e30d59b2edd, type: 2}
@@ -2785,7 +3030,7 @@ RectTransform:
   m_AnchorMin: {x: 0.091218755, y: 0.093}
   m_AnchorMax: {x: 0.90800005, y: 0.497}
   m_AnchoredPosition: {x: -0.100097656, y: 7}
-  m_SizeDelta: {x: 0.19999695, y: -2.5521507}
+  m_SizeDelta: {x: 0.19999695, y: 23.36488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195951585
 MonoBehaviour:
@@ -2864,6 +3109,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 443611513}
     m_Modifications:
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -2977,13 +3227,43 @@ Prefab:
     - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114306701499282724, guid: 894605fcc51ce423281748968bfe5450,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61257719431471930, guid: 894605fcc51ce423281748968bfe5450, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 894605fcc51ce423281748968bfe5450, type: 2}
@@ -2995,6 +3275,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1999872068}
     m_Modifications:
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -3118,13 +3403,43 @@ Prefab:
     - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114989676605324996, guid: 9c0358f2869aa4b0c84d5fb598953417,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61256906305190922, guid: 9c0358f2869aa4b0c84d5fb598953417, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 9c0358f2869aa4b0c84d5fb598953417, type: 2}
@@ -3221,6 +3536,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1123987713}
     m_Modifications:
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: slotArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
         type: 2}
       propertyPath: questionArray.Array.size
@@ -3334,13 +3654,43 @@ Prefab:
     - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the +1 ions above.
+      value: Which elements have a +1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the +2 ions above.
+      value: Which elements have a +2 charge?
       objectReference: {fileID: 0}
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: slotArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 631934262}
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: slotArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 397233411}
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: slotArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1926143163}
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: slotArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 9357989}
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: slotArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 1959317431}
+    - target: {fileID: 114752706116001768, guid: fc9465c07194b40c3809de53ebae0721,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 1195951584}
     m_RemovedComponents:
     - {fileID: 61947218121158918, guid: fc9465c07194b40c3809de53ebae0721, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: fc9465c07194b40c3809de53ebae0721, type: 2}
@@ -4716,7 +5066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1160, y: -99.99999}
+  m_AnchoredPosition: {x: 1160, y: -99.999985}
   m_SizeDelta: {x: 240, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1959317433

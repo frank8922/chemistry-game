@@ -35,6 +35,8 @@ public class QuizManager : MonoBehaviour {
 	public SceneFader fader;
 	public static int count = 0;
 
+	//TODO IMPLEMENT THRESHHOLD OF 5 SECS FOR EACH QUESTION
+
 	void Start()
 	{
 		if(count <= 0){
@@ -58,12 +60,18 @@ public class QuizManager : MonoBehaviour {
 		}
 		//show student animations for levels 1,2,3,4
 		if(numWrong >= 6){
+			if(SceneManager.GetActiveScene().name == "QuizGame"){
 			score = 0;
 			count = 0;
 			numWrong = 0;
 			Debug.Log("Student hasnt learned");
 			FindObjectOfType<AudioManager>().Stop("quizgamenoise");
 			SceneManager.LoadScene("VideoAnimationLevel1234");
+			}else if(SceneManager.GetActiveScene().name == "Level8"){
+			//load animations to rewatch remember to add the handle in the videoanimationdone script
+
+			}
+			
 		}
 		if(unansweredQuestions == null || unansweredQuestions.Count == 0)
 		{

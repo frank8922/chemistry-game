@@ -310,7 +310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1160, y: -99.999985}
+  m_AnchoredPosition: {x: 1160, y: -100}
   m_SizeDelta: {x: 240, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &171973135
@@ -599,17 +599,17 @@ Prefab:
     - target: {fileID: 114444974452618552, guid: e5205e38328dc4cba84e8e6217b4e265,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114444974452618552, guid: e5205e38328dc4cba84e8e6217b4e265,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114444974452618552, guid: e5205e38328dc4cba84e8e6217b4e265,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114444974452618552, guid: e5205e38328dc4cba84e8e6217b4e265,
         type: 2}
@@ -646,6 +646,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114444974452618552, guid: e5205e38328dc4cba84e8e6217b4e265,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5205e38328dc4cba84e8e6217b4e265, type: 2}
   m_IsPrefabAsset: 0
@@ -764,17 +769,17 @@ Prefab:
     - target: {fileID: 114926578361590466, guid: 1430082f22c8548869a03940479aaa68,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114926578361590466, guid: 1430082f22c8548869a03940479aaa68,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114926578361590466, guid: 1430082f22c8548869a03940479aaa68,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114926578361590466, guid: 1430082f22c8548869a03940479aaa68,
         type: 2}
@@ -811,6 +816,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114926578361590466, guid: 1430082f22c8548869a03940479aaa68,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1430082f22c8548869a03940479aaa68, type: 2}
   m_IsPrefabAsset: 0
@@ -929,17 +939,17 @@ Prefab:
     - target: {fileID: 114269639852643616, guid: 269d3bcc14bba44e89ee6208a8c1a8b3,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114269639852643616, guid: 269d3bcc14bba44e89ee6208a8c1a8b3,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114269639852643616, guid: 269d3bcc14bba44e89ee6208a8c1a8b3,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114269639852643616, guid: 269d3bcc14bba44e89ee6208a8c1a8b3,
         type: 2}
@@ -976,6 +986,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114269639852643616, guid: 269d3bcc14bba44e89ee6208a8c1a8b3,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 269d3bcc14bba44e89ee6208a8c1a8b3, type: 2}
   m_IsPrefabAsset: 0
@@ -1282,17 +1297,17 @@ Prefab:
     - target: {fileID: 114854388242165622, guid: b54bca72e458347c1b8e6fa027e53d93,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114854388242165622, guid: b54bca72e458347c1b8e6fa027e53d93,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114854388242165622, guid: b54bca72e458347c1b8e6fa027e53d93,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114854388242165622, guid: b54bca72e458347c1b8e6fa027e53d93,
         type: 2}
@@ -1329,6 +1344,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114854388242165622, guid: b54bca72e458347c1b8e6fa027e53d93,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b54bca72e458347c1b8e6fa027e53d93, type: 2}
   m_IsPrefabAsset: 0
@@ -1611,17 +1631,17 @@ Prefab:
     - target: {fileID: 114798731851615656, guid: 9af6108d1e5804f67a69351ddfac2167,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114798731851615656, guid: 9af6108d1e5804f67a69351ddfac2167,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114798731851615656, guid: 9af6108d1e5804f67a69351ddfac2167,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114798731851615656, guid: 9af6108d1e5804f67a69351ddfac2167,
         type: 2}
@@ -1658,6 +1678,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114798731851615656, guid: 9af6108d1e5804f67a69351ddfac2167,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af6108d1e5804f67a69351ddfac2167, type: 2}
   m_IsPrefabAsset: 0
@@ -1710,7 +1735,7 @@ RectTransform:
   m_AnchorMin: {x: 0.091218755, y: 0.093}
   m_AnchorMax: {x: 0.90800005, y: 0.497}
   m_AnchoredPosition: {x: -0.100097656, y: 7}
-  m_SizeDelta: {x: 0.19999695, y: -2.6960068}
+  m_SizeDelta: {x: 0.19999695, y: 23.36488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981528845
 MonoBehaviour:
@@ -2129,7 +2154,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.7096659}
   m_AnchorMax: {x: 1, y: 0.9902768}
   m_AnchoredPosition: {x: 0, y: 1}
-  m_SizeDelta: {x: 0, y: -87.34558}
+  m_SizeDelta: {x: 0, y: -69.24417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1306787785
 MonoBehaviour:
@@ -3189,17 +3214,17 @@ Prefab:
     - target: {fileID: 114308901358990074, guid: f007ff7edc314405a82c53795d5d90da,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114308901358990074, guid: f007ff7edc314405a82c53795d5d90da,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114308901358990074, guid: f007ff7edc314405a82c53795d5d90da,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114308901358990074, guid: f007ff7edc314405a82c53795d5d90da,
         type: 2}
@@ -3236,6 +3261,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114308901358990074, guid: f007ff7edc314405a82c53795d5d90da,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f007ff7edc314405a82c53795d5d90da, type: 2}
   m_IsPrefabAsset: 0
@@ -3363,6 +3393,47 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1370720389}
   m_CullTransparentMesh: 0
+--- !u!1 &1466528479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466528481}
+  - component: {fileID: 1466528480}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1466528480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1466528479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614a55075f40541698769af5db0a87e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DragPanel: {fileID: 981528844}
+--- !u!4 &1466528481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1466528479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0076016, y: 1.1144832, z: 140.6897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1570407679
 GameObject:
   m_ObjectHideFlags: 0
@@ -3558,17 +3629,17 @@ Prefab:
     - target: {fileID: 114003696657662324, guid: 6df035f5a12114229aa2f8f82564080a,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114003696657662324, guid: 6df035f5a12114229aa2f8f82564080a,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114003696657662324, guid: 6df035f5a12114229aa2f8f82564080a,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114003696657662324, guid: 6df035f5a12114229aa2f8f82564080a,
         type: 2}
@@ -3605,6 +3676,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114003696657662324, guid: 6df035f5a12114229aa2f8f82564080a,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6df035f5a12114229aa2f8f82564080a, type: 2}
   m_IsPrefabAsset: 0
@@ -3939,17 +4015,17 @@ Prefab:
     - target: {fileID: 114802890689317216, guid: 2e62041cf52c4403798a31c3ecab3a38,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114802890689317216, guid: 2e62041cf52c4403798a31c3ecab3a38,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114802890689317216, guid: 2e62041cf52c4403798a31c3ecab3a38,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114802890689317216, guid: 2e62041cf52c4403798a31c3ecab3a38,
         type: 2}
@@ -3986,6 +4062,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114802890689317216, guid: 2e62041cf52c4403798a31c3ecab3a38,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e62041cf52c4403798a31c3ecab3a38, type: 2}
   m_IsPrefabAsset: 0
@@ -4312,17 +4393,17 @@ Prefab:
     - target: {fileID: 114425945839078264, guid: 2bdf7ef97f8ef47238bbf7381151db59,
         type: 2}
       propertyPath: questionArray.Array.data[0]
-      value: Drag all the -1 ions above.
+      value: Which elements have a -1 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114425945839078264, guid: 2bdf7ef97f8ef47238bbf7381151db59,
         type: 2}
       propertyPath: questionArray.Array.data[1]
-      value: Drag all the -2 ions above.
+      value: Which elements have a -2 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114425945839078264, guid: 2bdf7ef97f8ef47238bbf7381151db59,
         type: 2}
       propertyPath: questionArray.Array.data[2]
-      value: Drag all the -3 ions above.
+      value: Which elements have a -3 charge?
       objectReference: {fileID: 0}
     - target: {fileID: 114425945839078264, guid: 2bdf7ef97f8ef47238bbf7381151db59,
         type: 2}
@@ -4359,6 +4440,11 @@ Prefab:
       propertyPath: slotArray.Array.data[4]
       value: 
       objectReference: {fileID: 171973133}
+    - target: {fileID: 114425945839078264, guid: 2bdf7ef97f8ef47238bbf7381151db59,
+        type: 2}
+      propertyPath: DragPanel
+      value: 
+      objectReference: {fileID: 981528844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bdf7ef97f8ef47238bbf7381151db59, type: 2}
   m_IsPrefabAsset: 0

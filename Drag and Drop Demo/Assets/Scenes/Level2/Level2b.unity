@@ -277,7 +277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Alkali Metals
+  m_Text: Halogens
 --- !u!222 &803784019
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -990,9 +990,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Alkaline Earth Metals
-
-'
+  m_Text: Noble Gases
 --- !u!222 &1797138051
 CanvasRenderer:
   m_ObjectHideFlags: 0
