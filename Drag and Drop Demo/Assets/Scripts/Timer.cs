@@ -18,6 +18,12 @@ public class Timer : MonoBehaviour
 	Text countdownText;
 	public static int counter = 0;
 
+	public string json;
+
+	void Awake(){
+		getResponse("0S1zkwI3pjSjdfGHLbj9FP5MfbC3");
+	}
+
 	void Start()
 	{
 		countdownText = GetComponent<Text>();
@@ -54,7 +60,7 @@ public class Timer : MonoBehaviour
 	IEnumerator ChangeScene()
 	{
 		string variable = "{\"correct\":\""+ DraggingObjects.correctAnswers +"\"}";
-		postResponse("https://mdchem-232a6.firebaseio.com/level1/6jhvBhSwEFaY5AP9OAxiODsdpyY2.json",variable,"6jhvBhSwEFaY5AP9OAxiODsdpyY2");
+		postResponse("http://167.99.5.35/api/adduser",variable,"0S1zkwI3pjSjdfGHLbj9FP5MfbC3");
 		Debug.Log(variable);
 		Spawner.stop = true;
 		yield return new WaitForSeconds(2);
@@ -74,7 +80,7 @@ public class Timer : MonoBehaviour
 				
 				Score.scoreValue  = 0;
 				SceneManager.LoadScene("LevelSelect");
-				
+
 			}
 		}else if((SceneManager.GetActiveScene().name == "Level2a") || (SceneManager.GetActiveScene().name == "Level2b") || (SceneManager.GetActiveScene().name == "Level2c")){
 			if(counter == 0){
@@ -146,7 +152,7 @@ public class Timer : MonoBehaviour
 
 	    public void getResponse(string uid)
     {
-        string url = "http://167.99.5.35:8080/API/get?uid=" + uid;
+        string url = "http://167.99.5.35/api/info?uid=" + uid;
         WWW www = new WWW(url);
         StartCoroutine(WaitForRequest(www));
     }
@@ -167,6 +173,7 @@ public class Timer : MonoBehaviour
         if (www.error == null)
         {
             Debug.Log("WWW Ok!: " + www.text);
+			json = www.text;
         }
         else
         {
@@ -176,7 +183,7 @@ public class Timer : MonoBehaviour
 
     IEnumerator PostRequest(string url, string json, string uid)
     {
-        var uwr = new UnityWebRequest(url, "PATCH");
+        var uwr = new UnityWebRequest(url, "POST");
         byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
         uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
         uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();

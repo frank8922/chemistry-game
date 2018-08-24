@@ -8,7 +8,7 @@ public class Draggable : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Vector3 originalPosition;
-    public bool col,cond;
+    public bool col, cond;
 
     public Transform originalParent, copyOfOtherParent;
     public Vector3 otherPosition;
@@ -230,11 +230,12 @@ public class Draggable : MonoBehaviour
         }
         else
         {
-            if(cond){
+            if (cond)
+            {
                 FindObjectOfType<AudioManager>().Play("falsenoise");
                 cond = false;
             }
-			
+
             transform.position = originalParent.position;
             transform.parent = originalParent;
 
@@ -246,29 +247,25 @@ public class Draggable : MonoBehaviour
     {
         //Debug.Log(gameObject.name + " has collided with " + other.name);
 
-        if (other.tag == gameObject.tag)
-        {
-            Debug.Log("The object should snap into the slot");
-            col = true;
-            otherPosition = other.transform.position;
-            copyOfOtherParent = other.transform;
-            if (gameObject.transform.position == other.transform.position)
+            if (other.tag == gameObject.tag)
             {
-                other.enabled = false;
+                Debug.Log("The object should snap into the slot");
+                col = true;
+                otherPosition = other.transform.position;
+                copyOfOtherParent = other.transform;
+                if (gameObject.transform.position == other.transform.position)
+                {
+                    other.enabled = false;
+                }
             }
-        }
-        else
-        {
-            
-            Handheld.Vibrate();
-            col = false;
-            other.enabled = true;
-            cond = true;
-        }
+            else
+            {
 
-
-
-
+                Handheld.Vibrate();
+                col = false;
+                other.enabled = true;
+                cond = true;
+            }
     }
 
     void OnTriggerExit2D(Collider2D other)

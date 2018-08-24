@@ -14,6 +14,10 @@ public class LevelSelector : MonoBehaviour {
 	eventually clean up the sphaghetti code and clean up the project structure
 	 */
 
+	void Awake(){
+
+
+	}
 	void Start ()
 	{
 		FindObjectOfType<AudioManager>().Play("levelselectnoise");
@@ -37,3 +41,5 @@ public class LevelSelector : MonoBehaviour {
 	
 
 }
+
+

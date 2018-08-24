@@ -24,6 +24,11 @@ TagManager:
   - -1
   - -2
   - -3
+  - Carbonate
+  - Nitrite
+  - Nitrate
+  - Sulfite
+  - Sulfate
   layers:
   - Default
   - TransparentFX

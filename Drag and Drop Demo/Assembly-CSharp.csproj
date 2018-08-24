@@ -150,6 +150,7 @@
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Student.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\user.cs" />
      <Compile Include="Assets\Scripts\Utils\Router.cs" />
      <Compile Include="Assets\Scripts\VideoPlayerDone.cs" />
      <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
