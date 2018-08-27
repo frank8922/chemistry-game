@@ -29,6 +29,11 @@ TagManager:
   - Nitrate
   - Sulfite
   - Sulfate
+  - Ammonium
+  - Phosphate
+  - Phosphite
+  - Chlorate
+  - Chlorite
   layers:
   - Default
   - TransparentFX

@@ -51,6 +51,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Level5/QuizGame.unity
     guid: 6b5f53bfc5a6a46ab95a0b43a1379736
   - enabled: 1
+    path: Assets/Scenes/Level6/Level6a.unity
+    guid: 33c5f9e8b16154aa4922bd14e104caa5
+  - enabled: 1
+    path: Assets/Scenes/Level7/Level7.unity
+    guid: 463cfdcc42acb4c21a2885003a234d7b
+  - enabled: 1
+    path: Assets/Scenes/Level8/Level8.unity
+    guid: 90b3725ba9104405fb24a9c271f0e34c
+  - enabled: 1
+    path: Assets/Scenes/Level9/Level9.unity
+    guid: faa6840f84b474f3dba8d914d1f113fd
+  - enabled: 1
     path: Assets/Scenes/Level1/VideoAnimationLevel1.unity
     guid: 74dc5a1ab47fb4f2894b86fc8a193632
   - enabled: 1
@@ -66,24 +78,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level5/VideoAnimationLevel1234.unity
     guid: 1b3dcc947c4ea48adb8ee8e256368b6c
   - enabled: 1
-    path: Assets/Scenes/Level6/Level6a.unity
-    guid: 33c5f9e8b16154aa4922bd14e104caa5
-  - enabled: 1
-    path: Assets/Scenes/Level7/Level7.unity
-    guid: 463cfdcc42acb4c21a2885003a234d7b
-  - enabled: 1
-    path: Assets/Scenes/Level8/Level8.unity
-    guid: 90b3725ba9104405fb24a9c271f0e34c
-  - enabled: 1
-    path: Assets/Scenes/Level9/VideoAnimationLevel9.unity
-    guid: 55db366d8a1da4e4aa77c7f90ce82078
-  - enabled: 1
-    path: Assets/Scenes/Level8/VideoAnimationLevel8.unity
-    guid: 097a018ecb5ed40d28c680f0e2f26b88
+    path: Assets/Scenes/Level6/VideoAnimationLevel6.unity
+    guid: c7ca28455aa1447929eebce5164e552c
   - enabled: 1
     path: Assets/Scenes/Level7/VideoAnimationLevel7.unity
     guid: a945d9cabdc094353a093674df7744ad
   - enabled: 1
-    path: Assets/Scenes/Level6/VideoAnimationLevel6.unity
-    guid: c7ca28455aa1447929eebce5164e552c
+    path: Assets/Scenes/Level8/VideoAnimationLevel8.unity
+    guid: 097a018ecb5ed40d28c680f0e2f26b88
+  - enabled: 1
+    path: Assets/Scenes/Level9/VideoAnimationLevel9.unity
+    guid: 55db366d8a1da4e4aa77c7f90ce82078
   m_configObjects: {}

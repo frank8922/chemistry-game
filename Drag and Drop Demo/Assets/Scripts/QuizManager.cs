@@ -35,6 +35,8 @@ public class QuizManager : MonoBehaviour {
 	public SceneFader fader;
 	public static int count = 0;
 
+	private float timeThreshhold = 4.0f;
+
 	//TODO IMPLEMENT THRESHHOLD OF 5 SECS FOR EACH QUESTION
 
 	void Start()
@@ -82,6 +84,14 @@ public class QuizManager : MonoBehaviour {
 		
 	} 
 
+	void Update(){
+		StartCoroutine(TimedThreshHold());
+		if(timeThreshhold <= 0){
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+		
+	}
+
 	void SetCurrentQuestion()
 	{
 		int randomQuestionIndex = Random.Range(0,unansweredQuestions.Count);
@@ -109,6 +119,18 @@ public class QuizManager : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
+	IEnumerator TimedThreshHold()
+	{
+		while (true)
+		{
+			yield return new WaitForSeconds(timeThreshhold);
+			timeThreshhold--;
+		}
+		
+	}
+
+	
+
 	/*
 	if need multiple question make single method instead of two make what the user selected into an integer
 	to determine validity possible 
@@ -123,7 +145,7 @@ public class QuizManager : MonoBehaviour {
 			TrueButton.enabled = false;
 			FalseButton.enabled = false;
 			Debug.Log("CORRECT!");
-			
+			timeThreshhold = 4.0f;
 
 			//play correct noise
 		}else{
@@ -132,6 +154,7 @@ public class QuizManager : MonoBehaviour {
 			TrueButton.enabled = false;
 			FalseButton.enabled = false;
 			Debug.Log("INCORRECT!");
+			timeThreshhold = 4.0f;
 			//play incorrect noise
 		}
 		StartCoroutine(TrasnsitionToNextQuestion());
@@ -145,6 +168,7 @@ public class QuizManager : MonoBehaviour {
 			Debug.Log("CORRECT!");
 			TrueButton.enabled = false;
 			FalseButton.enabled = false;
+			timeThreshhold = 5.0f;
 			//play correct noise
 		}else{
 			FindObjectOfType<AudioManager>().Play("falsenoise");
@@ -152,6 +176,7 @@ public class QuizManager : MonoBehaviour {
 			TrueButton.enabled = false;
 			FalseButton.enabled = false;
 			Debug.Log("INCORRECT!");
+			timeThreshhold = 5.0f;
 			//play incorrect noise
 		}
 		StartCoroutine(TrasnsitionToNextQuestion());
