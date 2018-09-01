@@ -6,87 +6,87 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menus/LevelSelect.unity
-    guid: 81357d86a3a13f64cae06c521774f1ee
-  - enabled: 1
     path: Assets/Scenes/Menus/Login Scene.unity
     guid: 272a6bf9790692e41a30337e7c911d99
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Menus/LevelSelect.unity
+    guid: 81357d86a3a13f64cae06c521774f1ee
+  - enabled: 0
     path: Assets/Scenes/Level1/Level1a.unity
     guid: ff17a64fdf98f489db09599fb6bf4639
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1/Level1b.unity
     guid: 7efce61b4446a474db8068322eb5269d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1/Level1c.unity
     guid: 1eb9a74d3dea3438794d0aa25344cef5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2/Level2a.unity
     guid: 7fc062cd0edcb4db0aded5bd0c678cd8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2/Level2b.unity
     guid: f788c0a9dd03a4a33bbf16b55ff56f6c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2/Level2c.unity
     guid: 6539627a01a994de9a24de536fbd8ead
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3/Level3a.unity
     guid: 65a38f22d90d04f12b6a295ac47030e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3/Level3b.unity
     guid: 0d64632ad799e4a089122063d3542e05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3/Level3c.unity
     guid: 8502e8da36578499a8b769499f695ef8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4/Level4a.unity
     guid: b907710506be848fcba1228126a5eb37
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4/Level4b.unity
     guid: 589aad6416ea14981916ad2a776520c1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4/Level4c.unity
     guid: e77e215f21a6f432ea2c06703990fd66
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level5/QuizGame.unity
     guid: 6b5f53bfc5a6a46ab95a0b43a1379736
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level6/Level6a.unity
     guid: 33c5f9e8b16154aa4922bd14e104caa5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level7/Level7.unity
     guid: 463cfdcc42acb4c21a2885003a234d7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level8/Level8.unity
     guid: 90b3725ba9104405fb24a9c271f0e34c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level9/Level9.unity
     guid: faa6840f84b474f3dba8d914d1f113fd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1/VideoAnimationLevel1.unity
     guid: 74dc5a1ab47fb4f2894b86fc8a193632
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2/VideoAnimationLevel2.unity
     guid: 2a7660c3b09b94d18b442985b16bb4b6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3/VideoAnimationLevel3.unity
     guid: 7573a9aa5443c4e9fbe40efbb21cfcc5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4/VideoAnimationLevel4.unity
     guid: 9d4ffe2544ac6472cab3e9c0aa485f6b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level5/VideoAnimationLevel1234.unity
     guid: 1b3dcc947c4ea48adb8ee8e256368b6c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level6/VideoAnimationLevel6.unity
     guid: c7ca28455aa1447929eebce5164e552c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level7/VideoAnimationLevel7.unity
     guid: a945d9cabdc094353a093674df7744ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level8/VideoAnimationLevel8.unity
     guid: 097a018ecb5ed40d28c680f0e2f26b88
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level9/VideoAnimationLevel9.unity
     guid: 55db366d8a1da4e4aa77c7f90ce82078
   m_configObjects: {}

@@ -24,7 +24,17 @@ public class FormManager : MonoBehaviour {
 
 	public AuthManager authManager;
 
-	public static string userid,username;
+	// string userid,username;
+
+	private string professorName;
+
+	private string fullName;
+
+	private string email;
+
+	private string password;
+	private bool validEmail = false;
+	private bool validPassword = false;
 
 
 	void Awake() {
@@ -32,36 +42,39 @@ public class FormManager : MonoBehaviour {
 		authManager.authCallBack += HandleAuthCallBack;
 	}
 
+	void Update(){
+		// if(validEmail && validPassword){
+		// 	ToggleButtonStates(true);
+		// }else{
+		// 	ToggleButtonStates(false);
+		// }
+	}
+
 	void OnEnable(){
-		ToggleButtonStates (false);
+		initButtons();
 		Debug.Log("in OnEnable");
 		
 	}
 
 
-	/// <summary>
-	/// Validates the email input
-	/// </summary>
-	public void ValidateEmail() {
+	public void ValidateEmail()
+	{
 		if(emailInput){
-		string email = emailInput.text;
-		
+		email = emailInput.text;
 		//Debug.Log(email);
-		var regexPattern = @"^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@"
-                + @"((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\."
-                + @"([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
-                + @"([a-zA-Z]+[\w-]+\.)+[a-zA-Z]{2,4})$";
+		checkEmail();
+	}
+	}
 
-		if (email != "" && Regex.IsMatch(email, regexPattern)) {
-			ToggleButtonStates (true);
-			//Debug.Log("toggle button state true");
-		} else {
-			ToggleButtonStates (false);
+	public void ValidatePassword(){
+		password = passwordInput.text;
+		if(password.Length >= 6){
+			validPassword = true;
+		}else{
+			validPassword = false;
 		}
 	}
-	}
 
-	
 	// Firebase methods
 	public void OnSignUp() {
 		authManager.signUpNewUser(emailInput.text,passwordInput.text);
@@ -82,27 +95,16 @@ public class FormManager : MonoBehaviour {
 
 			}
 			else if(task.IsCompleted){
-				
 				if(operation == "sign_up"){
 					Firebase.Auth.FirebaseUser newPlayer = task.Result;
-					
-					//create a new player
-					Player player = new Player(newPlayer.Email,0,1);
-					DatabaseManager.sharedInstance.createNewPlayer(player, newPlayer.UserId);
-					
-
+					createNewUser(newPlayer);
 				}
-				
-				Firebase.Auth.FirebaseUser returningPlayer = task.Result;
-				userid = returningPlayer.UserId;
-				username = returningPlayer.Email;
-				Debug.Log(userid + " IS " + username);
-
-				UpdateStatus("Loading the game scene");
-				SceneManager.LoadScene("LevelSelect");
-				
+				// Firebase.Auth.FirebaseUser returningPlayer = task.Result;
+				// userid = returningPlayer.UserId;
+				// username = returningPlayer.Email;
+				// Debug.Log(userid + " IS " + username);
+				loadLevelSelectScene();
 				yield return new WaitForSeconds(1.5f);
-				//SceneManager.LoadScene("Player List");
 
 			}
 
@@ -150,28 +152,62 @@ public class FormManager : MonoBehaviour {
     return message;
 }
 
-
-	
 	void OnDestroy(){}
 
 	public void RemoveCallBack(){authManager.authCallBack -= HandleAuthCallBack;}
 
 
-	// Utilities
 	private void ToggleButtonStates(bool toState) {
 		
 		if(loginButton){
+		loginButton.gameObject.SetActive(toState);
 		loginButton.interactable = toState;
-		loginButton.enabled = toState;
 		}
 
 		if(signUpButton){
-			signUpButton.enabled = toState;
+			signUpButton.gameObject.SetActive(toState);
 			signUpButton.interactable = toState;
 		}
 	}
 
 	private void UpdateStatus(string message) {
 		statusText.text = message;
+	}
+
+	private void createNewUser(FirebaseUser newPlayer){
+		//create a new player on firebase database
+		Player player = new Player(newPlayer.Email,0,1,professorName,fullName);
+		DatabaseManager.sharedInstance.createNewPlayer(player, newPlayer.UserId);
+	}
+
+	public void checkEmail(){
+		var regexPattern = @"^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@"
+                + @"((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\."
+                + @"([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
+                + @"([a-zA-Z]+[\w-]+\.)+[a-zA-Z]{2,4})$";
+
+		if (email != "" && Regex.IsMatch(email, regexPattern)) {
+			validEmail = true;
+			signUpButton.interactable = true;
+			//Debug.Log("toggle button state true");
+		} else {
+			validEmail = false;
+			signUpButton.interactable = false;
+		}
+	}
+
+	private void loadLevelSelectScene(){
+		UpdateStatus("Loading the game scene");
+				SceneManager.LoadScene("LevelSelect");
+	}
+
+	private void initButtons(){
+		if(signUpButton){
+			signUpButton.interactable = false;
+		}
+
+		if(loginButton){
+			signUpButton.interactable = false;
+		}
 	}
 }
