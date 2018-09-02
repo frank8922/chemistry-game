@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emailInput: {fileID: 1037787249}
   passwordInput: {fileID: 840115948}
-  signUpButton: {fileID: 0}
+  signUpButton: {fileID: 2044364375}
   loginButton: {fileID: 2029825134}
   statusText: {fileID: 2120783226}
   authManager: {fileID: 345665731}
