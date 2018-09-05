@@ -72,16 +72,16 @@
      <None Include="Assets\GoogleSignIn\Editor\GoogleSignInDependencies.xml" />
      <None Include="Assets\GoogleSignIn\Editor\google-signin-plugin_v1.0.3.txt" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -333,70 +333,70 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver_v1.2.64.0">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.IOSResolver_v1.2.64.0">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Posix">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
  </Reference>
  <Reference Include="System.Threading">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Logging">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="sfw.net">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
  </Reference>
  <Reference Include="ReadOnlyCollectionsInterfaces">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Unity">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Api">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
  </Reference>
  <Reference Include="AsyncBridge.Net35">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Database">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Platform">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Editor">
- <HintPath>/Users/tvvizzlemac/chemistry-game-master/Drag and Drop Demo/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ <HintPath>/Users/tvvizzlemac/Unity Project/chemistry-game/Drag and Drop Demo/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/tvvizzlemac/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
