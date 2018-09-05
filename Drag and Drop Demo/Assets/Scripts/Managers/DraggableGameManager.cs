@@ -27,6 +27,10 @@ public class DraggableGameManager : MonoBehaviour
             {
                 //user has finished this level6b time to get back to levelselect
                 //stop music 
+                if(PlayerPrefs.GetInt("levelReached") < 7)
+				{
+					PlayerPrefs.SetInt("levelReached", 7);
+				}
                 Debug.Log("user has finished this level6b time to get back to levelselect");
                 SceneManager.LoadScene("LevelSelect");
                 FindObjectOfType<AudioManager>().Stop("quizgamenoise");
@@ -48,6 +52,12 @@ public class DraggableGameManager : MonoBehaviour
             else if(DropPanel.childCount == 2 && count == 3){
                 //user has finished this level6b time to get back to levelselect
                 //stop music 
+
+                if(PlayerPrefs.GetInt("levelReached") < 8)
+				{
+					PlayerPrefs.SetInt("levelReached", 8);
+				}
+                count = 0;
                 Debug.Log("user has finished this level7c time to get back to levelselect");
                 FindObjectOfType<AudioManager>().Stop("quizgamenoise");
                 SceneManager.LoadScene("LevelSelect");

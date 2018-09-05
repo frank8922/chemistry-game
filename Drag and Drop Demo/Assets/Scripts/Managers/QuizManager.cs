@@ -63,7 +63,7 @@ public class QuizManager : MonoBehaviour {
 		//Debug.Log("Number Correct " + score);
 		//move on to the next level
 		//score 15
-		if(score >= 15){
+		if(score >= 1){
 			Debug.Log("score is greater or equal to 5");
 			if(SceneManager.GetActiveScene().name == "Level5"){
 				if(PlayerPrefs.GetInt("levelReached") < 6)

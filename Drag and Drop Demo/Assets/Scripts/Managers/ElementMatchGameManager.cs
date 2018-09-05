@@ -57,6 +57,10 @@ public class ElementMatchGameManager : MonoBehaviour {
 			{
 				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			}else if(DropPanel.GetChild(0).childCount == 1 && DropPanel.GetChild(1).childCount == 1 && DropPanel.GetChild(2).childCount == 1 && DropPanel.GetChild(3).childCount == 1 && DropPanel.GetChild(4).childCount == 1 && count == 2){
+				if(PlayerPrefs.GetInt("levelReached") < 10)
+				{
+					PlayerPrefs.SetInt("levelReached", 10);
+				}
 				FindObjectOfType<AudioManager>().Stop("quizgamenoise");
 				SceneManager.LoadScene("LevelSelect");
 			}

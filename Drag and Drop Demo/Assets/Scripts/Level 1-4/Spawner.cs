@@ -22,6 +22,7 @@ public class Spawner : MonoBehaviour {
 	void Awake(){
 		//whenever the spawner is in a scene it needs to default to this
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
+		
 	}
 
 	void Start () {
