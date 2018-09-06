@@ -25,6 +25,8 @@ public class FormManager : MonoBehaviour {
 	private string password;
 	private bool validEmail = false;
 	private bool validPassword = false;
+	private bool loginBtnValid = false;
+	private bool signUpBtnValid = false;
 
 
 	void Awake() { 
@@ -53,18 +55,19 @@ public class FormManager : MonoBehaviour {
 
 	public void OnSignUp() {
 		UpdateStatus("");
-		if(!validPassword){
-			UpdateStatus("Password must be at least 6 characters");
-		}else{
-			authManager.auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
-			authManager.signUpNewUser(emailInput.text,passwordInput.text);
-			Debug.Log("in OnSignUp");
-		}
+		authManager.signUpNewUser(emailInput.text,passwordInput.text);
+		// if(!validPassword){
+		// 	UpdateStatus("Password must be at least 6 characters");
+		// }else{
+			
+		// 	Debug.Log("in OnSignUp");
+		// }
 	}
 
 	public void OnLogin() {
+		UpdateStatus("");
 		authManager.LoginExistingUser(emailInput.text,passwordInput.text);
-		Debug.Log ("Login");
+		
 	}
 
 	IEnumerator HandleAuthCallBack(Task<Firebase.Auth.FirebaseUser> task, string operation){
@@ -167,19 +170,28 @@ public class FormManager : MonoBehaviour {
 
 		if (email != "" && Regex.IsMatch(email, regexPattern)) {
 			validEmail = true;
-			signUpButton.interactable = true;
-			//Debug.Log("toggle button state true");
+			if(signUpBtnValid){
+				signUpButton.interactable = true;
+			}
+			if(loginBtnValid){
+				loginButton.interactable = true;
+			}
 		} else {
 			validEmail = false;
-			signUpButton.interactable = false;
 		}
 	}
 
 	private void loadLevelSelectScene(){ 	}
 
 	private void initButtons(){
-		if(signUpButton){ signUpButton.interactable = false;}
+		if(signUpButton){
+			 signUpButton.interactable = false;
+			signUpBtnValid = true;	
+		}
 
-		if(loginButton){loginButton.interactable = false; }
+		if(loginButton){
+			loginButton.interactable = false; 
+			loginBtnValid = true;	
+		}
 	}
 }

@@ -18,7 +18,8 @@ public class AuthManager : MonoBehaviour {
 	
 
 	 void Awake(){
-		 auth = FirebaseAuth.DefaultInstance;
+		 auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+		 
 	 }
 
 	
@@ -33,6 +34,7 @@ public class AuthManager : MonoBehaviour {
 	public void LoginExistingUser(string email, string password){
 		auth.SignInWithEmailAndPasswordAsync(email,password).ContinueWith(task => {
 			StartCoroutine(authCallBack(task,"login"));
+			Debug.Log("In Login");
 		});
 	}
 }

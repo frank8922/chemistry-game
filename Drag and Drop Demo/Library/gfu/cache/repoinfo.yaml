@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-09-06T12:53:32.319-04:00
-  initializedAtString: 2018-09-06T12:41:24.998-04:00
-=======
-  lastUpdatedAtString: 2018-09-05T00:23:01.734-04:00
-  initializedAtString: 2018-09-05T00:23:01.734-04:00
->>>>>>> 2fafdf2e972fb465e22c7ebe6dd76a0b342320b6
+  lastUpdatedAtString: 2018-09-06T15:18:30.566-04:00
+  initializedAtString: 2018-09-06T15:06:45.745-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/frank8922/chemistry-game.git
@@ -39,8 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/frank8922/chemistry-game.git
-<<<<<<< HEAD
-  currentHead: 09881844
-=======
-  currentHead: 9d0eff08
->>>>>>> 2fafdf2e972fb465e22c7ebe6dd76a0b342320b6
+  currentHead: c7690649
