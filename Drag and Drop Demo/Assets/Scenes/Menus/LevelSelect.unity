@@ -363,7 +363,7 @@ Prefab:
     - target: {fileID: 114339133963442336, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_Text
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -1792,7 +1792,12 @@ Prefab:
     - target: {fileID: 114339133963442336, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_Text
-      value: 12
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: VideoAnimationLevel11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -1922,6 +1927,11 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: VideoAnimationLevel10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}

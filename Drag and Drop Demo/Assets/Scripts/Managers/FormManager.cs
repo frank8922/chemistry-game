@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Text;
 using System.Text.RegularExpressions;
+using TMPro;
 using System.Threading.Tasks;
 using Firebase;
 using Firebase.Auth;
@@ -12,73 +13,53 @@ using System;
 
 public class FormManager : MonoBehaviour {
 
-	// UI objects linked from the inspector
 	public TMPro.TMP_InputField emailInput;
 	public TMPro.TMP_InputField passwordInput;
-
 	public Button signUpButton;
 	public Button loginButton;
-
-
 	public TMPro.TMP_Text statusText;
-
 	public AuthManager authManager;
-
-	// string userid,username;
-
 	private string professorName;
-
 	private string fullName;
-
 	private string email;
-
 	private string password;
 	private bool validEmail = false;
 	private bool validPassword = false;
 
 
-	void Awake() {
-		//Auth Deglegate subscriptions
-		authManager.authCallBack += HandleAuthCallBack;
-	}
+	void Awake() { 
+		authManager.authCallBack += HandleAuthCallBack; 
+		}
 
-	void Update(){
-		// if(validEmail && validPassword){
-		// 	ToggleButtonStates(true);
-		// }else{
-		// 	ToggleButtonStates(false);
-		// }
-	}
+	void OnEnable(){ initButtons(); }
 
-	void OnEnable(){
-		initButtons();
-		Debug.Log("in OnEnable");
-		
-	}
-
-
-	public void ValidateEmail()
-	{
+	public void ValidateEmail(){
 		if(emailInput){
-		email = emailInput.text;
-		//Debug.Log(email);
-		checkEmail();
-	}
-	}
-
-	public void ValidatePassword(){
-		password = passwordInput.text;
-		if(password.Length >= 6){
-			validPassword = true;
-		}else{
-			validPassword = false;
+			email = emailInput.text;
+			checkEmail();
 		}
 	}
 
-	// Firebase methods
+	public void ValidatePassword(){
+		if(passwordInput){
+			password = passwordInput.text;
+			if(password.Length >= 6){
+				validPassword = true;
+			}else{
+				validPassword = false;
+			}
+		}
+	}
+
 	public void OnSignUp() {
-		authManager.signUpNewUser(emailInput.text,passwordInput.text);
-		Debug.Log ("Sign Up");
+		UpdateStatus("");
+		if(!validPassword){
+			UpdateStatus("Password must be at least 6 characters");
+		}else{
+			authManager.auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+			authManager.signUpNewUser(emailInput.text,passwordInput.text);
+			Debug.Log("in OnSignUp");
+		}
 	}
 
 	public void OnLogin() {
@@ -88,7 +69,6 @@ public class FormManager : MonoBehaviour {
 
 	IEnumerator HandleAuthCallBack(Task<Firebase.Auth.FirebaseUser> task, string operation){
 			if(task.IsFaulted || task.IsCanceled){
-				 Debug.Log("In HandleCallBack: Task.faulted");
 				 foreach( Firebase.FirebaseException i in task.Exception.InnerExceptions){
 					 	UpdateStatus(GetErrorMessage((AuthError)i.ErrorCode));
 				 }
@@ -97,13 +77,12 @@ public class FormManager : MonoBehaviour {
 			else if(task.IsCompleted){
 				if(operation == "sign_up"){
 					Firebase.Auth.FirebaseUser newPlayer = task.Result;
+					Debug.Log("In HandleAuthCallback");
 					createNewUser(newPlayer);
 				}
-				// Firebase.Auth.FirebaseUser returningPlayer = task.Result;
-				// userid = returningPlayer.UserId;
-				// username = returningPlayer.Email;
-				// Debug.Log(userid + " IS " + username);
-				loadLevelSelectScene();
+				
+				// loadLevelSelectScene();
+				SceneManager.LoadScene("LevelSelect");
 				yield return new WaitForSeconds(1.5f);
 
 			}
@@ -111,10 +90,10 @@ public class FormManager : MonoBehaviour {
 	}
 
 	private static string GetErrorMessage(AuthError errorCode)
-{
-    var message = "";
-    switch (errorCode)
-    {
+	{
+    	var message = "";
+    	switch (errorCode)
+    	{
         case AuthError.AccountExistsWithDifferentCredentials:
             message = "Account exists already with different credientials";
             break;
@@ -148,14 +127,13 @@ public class FormManager : MonoBehaviour {
         default:
             message = "Error occured";
             break;
-    }
-    return message;
-}
+    	}
+    	return message;
+	}
 
-	void OnDestroy(){}
+	void OnDestroy(){RemoveCallBack();}
 
 	public void RemoveCallBack(){authManager.authCallBack -= HandleAuthCallBack;}
-
 
 	private void ToggleButtonStates(bool toState) {
 		
@@ -180,6 +158,7 @@ public class FormManager : MonoBehaviour {
 		DatabaseManager.sharedInstance.createNewPlayer(player, newPlayer.UserId);
 	}
 
+
 	public void checkEmail(){
 		var regexPattern = @"^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@"
                 + @"((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\."
@@ -196,18 +175,11 @@ public class FormManager : MonoBehaviour {
 		}
 	}
 
-	private void loadLevelSelectScene(){
-		UpdateStatus("Loading the game scene");
-				SceneManager.LoadScene("LevelSelect");
-	}
+	private void loadLevelSelectScene(){ 	}
 
 	private void initButtons(){
-		if(signUpButton){
-			signUpButton.interactable = false;
-		}
+		if(signUpButton){ signUpButton.interactable = false;}
 
-		if(loginButton){
-			signUpButton.interactable = false;
-		}
+		if(loginButton){loginButton.interactable = false; }
 	}
 }

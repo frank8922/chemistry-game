@@ -200,7 +200,7 @@ RectTransform:
   m_LocalScale: {x: 1.0667615, y: 1.0667615, z: 1.0667615}
   m_Children: []
   m_Father: {fileID: 1094486879}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -751,7 +751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &214042125
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emailInput: {fileID: 1037787249}
   passwordInput: {fileID: 840115948}
-  signUpButton: {fileID: 0}
+  signUpButton: {fileID: 2044364375}
   loginButton: {fileID: 2029825134}
   statusText: {fileID: 2120783226}
   authManager: {fileID: 345665731}
@@ -2475,7 +2475,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094486879}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2969,16 +2969,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 960398008}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1672770819}
-  m_RootOrder: 4
+  m_Father: {fileID: 1094486879}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000001352, y: -84.1}
+  m_AnchoredPosition: {x: 0, y: -84.1}
   m_SizeDelta: {x: 245.5, y: 43.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &960398010
@@ -3280,7 +3280,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1266728737}
+      objectReference: {fileID: 1753602831}
     - target: {fileID: 114412538231388324, guid: 829ba2e68b5ba42c99de3c17b7b727fd,
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3290,6 +3290,21 @@ Prefab:
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114412538231388324, guid: 829ba2e68b5ba42c99de3c17b7b727fd,
+        type: 2}
+      propertyPath: m_ContentType
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114412538231388324, guid: 829ba2e68b5ba42c99de3c17b7b727fd,
+        type: 2}
+      propertyPath: m_KeyboardType
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114412538231388324, guid: 829ba2e68b5ba42c99de3c17b7b727fd,
+        type: 2}
+      propertyPath: m_CharacterValidation
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 829ba2e68b5ba42c99de3c17b7b727fd, type: 2}
@@ -3500,6 +3515,7 @@ RectTransform:
   m_Children:
   - {fileID: 45224902}
   - {fileID: 1672770819}
+  - {fileID: 960398009}
   - {fileID: 747883564}
   - {fileID: 26246576}
   m_Father: {fileID: 540059018}
@@ -4534,14 +4550,13 @@ GameObject:
   - component: {fileID: 1266728734}
   - component: {fileID: 1266728735}
   - component: {fileID: 1251824822}
-  - component: {fileID: 1266728737}
   m_Layer: 5
   m_Name: Sign up Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1266728734
 Animator:
   serializedVersion: 3
@@ -4586,23 +4601,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &1266728737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1266728733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c01afcd523304aaab1dc3f2e305f4e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emailInput: {fileID: 1942574739}
-  passwordInput: {fileID: 18504715}
-  signUpButton: {fileID: 273350331}
-  loginButton: {fileID: 0}
-  statusText: {fileID: 960398010}
-  authManager: {fileID: 214042126}
 --- !u!224 &1269801583
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4686,6 +4684,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1672770819}
     m_Modifications:
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224021157833569438, guid: 885a93b3f832c4eacbeee83db7de8fa6,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -4775,6 +4778,41 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1753602831}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ValidatePassword
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_ContentType
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462218905377272, guid: 885a93b3f832c4eacbeee83db7de8fa6,
+        type: 2}
+      propertyPath: m_InputType
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 885a93b3f832c4eacbeee83db7de8fa6, type: 2}
@@ -6113,7 +6151,6 @@ RectTransform:
   - {fileID: 793225187}
   - {fileID: 356872006}
   - {fileID: 227521623}
-  - {fileID: 960398009}
   m_Father: {fileID: 1094486879}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6249,7 +6286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1753602831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,11 +6298,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c01afcd523304aaab1dc3f2e305f4e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emailInput: {fileID: 0}
-  passwordInput: {fileID: 0}
+  emailInput: {fileID: 1942574739}
+  passwordInput: {fileID: 18504715}
   signUpButton: {fileID: 273350331}
   loginButton: {fileID: 0}
-  statusText: {fileID: 0}
+  statusText: {fileID: 960398010}
   authManager: {fileID: 1753602833}
 --- !u!4 &1753602832
 Transform:

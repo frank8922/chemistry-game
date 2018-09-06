@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-09-01T14:23:58.134-04:00
-  initializedAtString: 2018-09-01T14:23:58.119-04:00
+  lastUpdatedAtString: 2018-09-06T12:53:32.217-04:00
+  initializedAtString: 2018-09-06T12:42:06.454-04:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -43,9 +45,15 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/frank8922/chemistry-game.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/frank8922/chemistry-game.git
