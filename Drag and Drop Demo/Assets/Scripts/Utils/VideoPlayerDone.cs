@@ -26,7 +26,6 @@ public class VideoPlayerDone : MonoBehaviour {
 	void Update () {
 		if(videoPlayer.isPrepared){
 			videoPlayer.Play();
-			//Debug.Log("The video is playing");
 		}else{
 			videoPlayer.Prepare();
 		}
@@ -36,20 +35,20 @@ public class VideoPlayerDone : MonoBehaviour {
 		Debug.Log("End of the video animation");
        	videoPlayer.Stop();
 		if(SceneManager.GetActiveScene().name == "VideoAnimationLevel1"){
-			FindObjectOfType<AudioManager>().Play("theme");
+			FindObjectOfType<AudioManager>().Play("captainscurvy");
 			Timer.counter = 0;
 			SceneManager.LoadScene("Level1a");
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel2"){
-			FindObjectOfType<AudioManager>().Play("theme");
+			FindObjectOfType<AudioManager>().Play("captainscurvy");
 			Timer.counter = 0;
 			SceneManager.LoadScene("Level2a");
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel3"){
-			FindObjectOfType<AudioManager>().Play("theme");
+			FindObjectOfType<AudioManager>().Play("captainscurvy");
 			Timer.counter = 0;
 			SceneManager.LoadScene("Level3a");
 			
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel4"){
-			FindObjectOfType<AudioManager>().Play("theme");
+			FindObjectOfType<AudioManager>().Play("captainscurvy");
 			Timer.counter = 0;
 			SceneManager.LoadScene("Level4a");
 			
@@ -61,6 +60,7 @@ public class VideoPlayerDone : MonoBehaviour {
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel6"){
 			SceneManager.LoadScene("Level6");
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel7"){
+			
 			SceneManager.LoadScene("Level7");
 		}else if(SceneManager.GetActiveScene().name == "VideoAnimationLevel8"){
 			QuizManager.score = 0;

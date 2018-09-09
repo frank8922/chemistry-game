@@ -14,13 +14,13 @@ public class LevelSelector : MonoBehaviour {
 	eventually clean up the sphaghetti code and clean up the project structure
 	 */
 
-	void Awake(){
+	void Awake(){	
 
 
 	}
 	void Start ()
 	{
-		FindObjectOfType<AudioManager>().Play("levelselectnoise");
+		FindObjectOfType<AudioManager>().Play("levelselectreggae");
 		int levelReached = PlayerPrefs.GetInt("levelReached", 1);
 
 		

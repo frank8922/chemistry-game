@@ -69,6 +69,7 @@ public class ElementDragHandler : MonoBehaviour
                 transform.parent = originalParent;
                 
             }else{
+                FindObjectOfType<AudioManager>().Play("buttonnoise");
                 transform.position = new Vector3(otherPosition.x, otherPosition.y, otherPosition.z);
                 transform.parent = copyOfOtherParent.transform;
                 

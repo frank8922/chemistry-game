@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 267373965}
   - component: {fileID: 267373964}
   - component: {fileID: 267373963}
+  - component: {fileID: 267373967}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -228,6 +229,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &267373967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 267373961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3802c0420d7df45aaabf6f82d80b8583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &307695801 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224340625839220612, guid: 3d90679390670c24790f2c49ad22bf95,
@@ -887,7 +899,7 @@ Prefab:
     - target: {fileID: 114173760659776942, guid: 3d90679390670c24790f2c49ad22bf95,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: VideoAnimationLevel1234
+      value: Level5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d90679390670c24790f2c49ad22bf95, type: 2}
@@ -2246,6 +2258,7 @@ GameObject:
   - component: {fileID: 1790098789}
   - component: {fileID: 1790098788}
   - component: {fileID: 1790098787}
+  - component: {fileID: 1790098797}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -3092,6 +3105,24 @@ MonoBehaviour:
     name: falsenoise
     loop: 0
     source: {fileID: 1790098787}
+  - clip: {fileID: 8300000, guid: 7ac5bbd52cb8e4dcd8d76980daa3a3fd, type: 3}
+    volume: 0.302
+    pitch: 1
+    name: masterylevelmusic
+    loop: 1
+    source: {fileID: 1790098787}
+  - clip: {fileID: 8300000, guid: 52419336bf9cb496a9173954216541aa, type: 3}
+    volume: 0.5
+    pitch: 1
+    name: levelselectreggae
+    loop: 1
+    source: {fileID: 1790098787}
+  - clip: {fileID: 8300000, guid: 3349479ef856341ed8717daebb5c92a3, type: 3}
+    volume: 0.5
+    pitch: 1
+    name: captainscurvy
+    loop: 1
+    source: {fileID: 1790098787}
 --- !u!4 &1790098796
 Transform:
   m_ObjectHideFlags: 0
@@ -3106,6 +3137,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1790098797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790098786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3802c0420d7df45aaabf6f82d80b8583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1873351369
 GameObject:
   m_ObjectHideFlags: 0

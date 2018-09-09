@@ -75,7 +75,7 @@ public class Timer : MonoBehaviour
 				SceneManager.LoadScene(4);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
-				FindObjectOfType<AudioManager>().Stop("theme");
+				FindObjectOfType<AudioManager>().Stop("captainscurvy");
 				if(PlayerPrefs.GetInt("levelReached") < 2){
 					PlayerPrefs.SetInt("levelReached", 2);
 				}
@@ -92,7 +92,7 @@ public class Timer : MonoBehaviour
 				SceneManager.LoadScene(7);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
-				FindObjectOfType<AudioManager>().Stop("theme");
+				FindObjectOfType<AudioManager>().Stop("captainscurvy");
 				if(PlayerPrefs.GetInt("levelReached") < 3){
 					PlayerPrefs.SetInt("levelReached", 3);
 				}
@@ -108,7 +108,7 @@ public class Timer : MonoBehaviour
 				SceneManager.LoadScene(10);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
-				FindObjectOfType<AudioManager>().Stop("theme");
+				FindObjectOfType<AudioManager>().Stop("captainscurvy");
 				if(PlayerPrefs.GetInt("levelReached") < 4){
 					PlayerPrefs.SetInt("levelReached", 4);
 				}
@@ -123,7 +123,7 @@ public class Timer : MonoBehaviour
 				SceneManager.LoadScene(13);
 				Score.scoreValue  = 0;
 			}else if(counter == 2){
-				FindObjectOfType<AudioManager>().Stop("theme");
+				FindObjectOfType<AudioManager>().Stop("captainscurvy");
 				if(PlayerPrefs.GetInt("levelReached") < 5){
 					PlayerPrefs.SetInt("levelReached", 5);
 				}

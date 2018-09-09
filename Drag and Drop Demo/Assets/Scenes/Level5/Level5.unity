@@ -434,7 +434,7 @@ MonoBehaviour:
   TrueButton: {fileID: 593061604}
   FalseButton: {fileID: 673252659}
   factText: {fileID: 216142113}
-  timeBetweenQuestions: 1.5
+  timeBetweenQuestions: 1
   trueAnswer: {fileID: 1541837615}
   falseAnswer: {fileID: 1063897082}
   animator: {fileID: 1217785376}
@@ -466,6 +466,7 @@ GameObject:
   - component: {fileID: 263851086}
   - component: {fileID: 263851085}
   - component: {fileID: 263851084}
+  - component: {fileID: 263851089}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -547,6 +548,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263851089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 263851083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6127bdc8ef5474d168ae04c9e168ebdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &292466174
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,7 +2712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.5, y: -98.350006}
+  m_AnchoredPosition: {x: -8.5, y: -98.349976}
   m_SizeDelta: {x: -17, y: -196.70001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1217785370

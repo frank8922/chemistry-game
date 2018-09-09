@@ -12,60 +12,9 @@ public class DraggableGameManager : MonoBehaviour
     private static int count = 0;
 
 
-    void Update()
+    void Awake()
     {
-
-        if (SceneManager.GetActiveScene().name == "Level6")
-        {
-            if (DropPanel.childCount == 5 && count == 1)
-            {
-                //user has finished this level6a
-                Debug.Log("user has finished this level6a");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
-            else if (DropPanel.childCount == 5 && count == 2)
-            {
-                //user has finished this level6b time to get back to levelselect
-                //stop music 
-                if(PlayerPrefs.GetInt("levelReached") < 7)
-				{
-					PlayerPrefs.SetInt("levelReached", 7);
-				}
-                Debug.Log("user has finished this level6b time to get back to levelselect");
-                SceneManager.LoadScene("LevelSelect");
-                FindObjectOfType<AudioManager>().Stop("quizgamenoise");
-            }
-
-        }
-        else if(SceneManager.GetActiveScene().name == "Level7")
-        {
-            if(DropPanel.childCount == 4 && count == 1)
-            {
-                Debug.Log("user has finished this level7a");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
-            else if(DropPanel.childCount == 3 && count == 2)
-            {
-                Debug.Log("user has finished this level7b");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
-            else if(DropPanel.childCount == 2 && count == 3){
-                //user has finished this level6b time to get back to levelselect
-                //stop music 
-
-                if(PlayerPrefs.GetInt("levelReached") < 8)
-				{
-					PlayerPrefs.SetInt("levelReached", 8);
-				}
-                count = 0;
-                Debug.Log("user has finished this level7c time to get back to levelselect");
-                FindObjectOfType<AudioManager>().Stop("quizgamenoise");
-                SceneManager.LoadScene("LevelSelect");
-                
-            }
-
-        }
-
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
 
     void Start()
@@ -76,6 +25,7 @@ public class DraggableGameManager : MonoBehaviour
         if (count <= 1)
         {
             FindObjectOfType<AudioManager>().Play("quizgamenoise");
+            Debug.Log("level 6 music is playing");
         }
 
         if (SceneManager.GetActiveScene().name == "Level6" || SceneManager.GetActiveScene().name == "Level7")
@@ -124,12 +74,68 @@ public class DraggableGameManager : MonoBehaviour
 
             }
 
-
-
-
         }
 
 
+    }
+    void Update()
+    {
+
+        if (SceneManager.GetActiveScene().name == "Level6")
+        {
+            if (DropPanel.childCount == 5 && count == 1)
+            {
+                //user has finished this level6a
+                Debug.Log("user has finished this level6a");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else if (DropPanel.childCount == 5 && count == 2)
+            {
+                //user has finished this level6b time to get back to levelselect
+                //stop music 
+                if (PlayerPrefs.GetInt("levelReached") < 7)
+                {
+                    PlayerPrefs.SetInt("levelReached", 7);
+                }
+                Debug.Log("user has finished this level6b time to get back to levelselect");
+                count = 0;
+                FindObjectOfType<AudioManager>().Stop("quizgamenoise");
+                SceneManager.LoadScene("LevelSelect");
+
+            }
+
+        }
+        else if (SceneManager.GetActiveScene().name == "Level7")
+        {
+            if (DropPanel.childCount == 4 && count == 1)
+            {
+                Debug.Log("user has finished this level7a");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else if (DropPanel.childCount == 3 && count == 2)
+            {
+                Debug.Log("user has finished this level7b");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else if (DropPanel.childCount == 2 && count == 3)
+            {
+                //user has finished this level6b time to get back to levelselect
+                //stop music 
+
+                if (PlayerPrefs.GetInt("levelReached") < 8)
+                {
+                    PlayerPrefs.SetInt("levelReached", 8);
+                }
+                count = 0;
+                Debug.Log("user has finished this level7c time to get back to levelselect");
+                FindObjectOfType<AudioManager>().Stop("quizgamenoise");
+                SceneManager.LoadScene("LevelSelect");
+
+            }
+
+        }
 
     }
+
+
 }

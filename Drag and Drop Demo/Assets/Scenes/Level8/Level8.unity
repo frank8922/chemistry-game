@@ -1741,11 +1741,13 @@ MonoBehaviour:
   TrueButton: {fileID: 418919225}
   FalseButton: {fileID: 497115930}
   factText: {fileID: 740688100}
-  timeBetweenQuestions: 1.5
+  timeBetweenQuestions: 1
   trueAnswer: {fileID: 1952193728}
   falseAnswer: {fileID: 1654049077}
   animator: {fileID: 1831628842}
   fader: {fileID: 1496939380}
+  quizManager: {fileID: 0}
+  json: 
 --- !u!4 &1662071553
 Transform:
   m_ObjectHideFlags: 0
@@ -3331,7 +3333,7 @@ MonoBehaviour:
     name: truenoise
     loop: 0
     source: {fileID: 2141713849}
-  - clip: {fileID: 8300000, guid: 133059acda9b449e6bfa195f6a15dd7d, type: 3}
+  - clip: {fileID: 8300000, guid: 41f6d55c694a64c0790a22c47e9db58b, type: 3}
     volume: 0.5
     pitch: 1
     name: falsenoise
