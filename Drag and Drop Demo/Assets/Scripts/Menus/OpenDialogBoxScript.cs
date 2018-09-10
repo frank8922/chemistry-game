@@ -19,21 +19,28 @@ public class OpenDialogBoxScript : MonoBehaviour {
 		
 	}
 
-	void Start(){
-		//if(SceneManager.GetActiveScene().name == "Level1a"){
-			StartCoroutine("BringUpDialog");
-		//}
+	public void closeDialogTime1(){
 		
+		// Time.timeScale = 1;
+		animator.SetTrigger("CloseLoginDialog");
 		
 	}
 
-		IEnumerator BringUpDialog()
-	{
-			
-		openDialog();
-		yield return new WaitForSeconds(5);
-		closeDialog();
-			
+	public void openDialogTime0(){
+
+		// loginDialogObject.SetActive(true);
+		animator.SetTrigger("OpenLoginDialog");
+		// Time.timeScale = 0;
+		
 	}
+
+	void Start(){
+		if(SceneManager.GetActiveScene().name == "Level1a"){
+			openDialogTime0();
+		}
+		
+	}
+
+	
 
 }
