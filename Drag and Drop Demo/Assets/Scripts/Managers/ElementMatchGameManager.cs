@@ -8,7 +8,7 @@ public class ElementMatchGameManager : MonoBehaviour {
     [SerializeField]
     private Transform DragPanel, DropPanel;
 
-	private static int count,countChildren = 0;
+	public static int count,countChildren = 0;
 
     [SerializeField]
     private Sprite[] spriteArray;
@@ -62,6 +62,7 @@ public class ElementMatchGameManager : MonoBehaviour {
 					PlayerPrefs.SetInt("levelReached", 10);
 				}
 				FindObjectOfType<AudioManager>().Stop("quizgamenoise");
+				count = 0;
 				SceneManager.LoadScene("LevelSelect");
 			}
 

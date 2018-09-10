@@ -12,7 +12,7 @@ public class ElementGameManager : MonoBehaviour
     [SerializeField]
     private Transform DropPanel;
     
-    private static int count = 0;
+    public static int count = 0;
 
     void Update(){
         if(DropPanel.childCount >= 2){
@@ -53,6 +53,7 @@ public class ElementGameManager : MonoBehaviour
                 //if they put in the wrong formula restart the scene
                 FindObjectOfType<AudioManager>().Play("falsenoise");
                 FindObjectOfType<AudioManager>().Stop("quizgamenoise");
+                count = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }

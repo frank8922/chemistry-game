@@ -18,6 +18,7 @@ public class AuthManager : MonoBehaviour {
 	
 
 	 void Awake(){
+		 FindObjectOfType<AudioManager>().Play("levelselectnoise");
 		 auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
 		 
 	 }
@@ -27,6 +28,7 @@ public class AuthManager : MonoBehaviour {
 	public void signUpNewUser(string email, string password){
 		auth.CreateUserWithEmailAndPasswordAsync(email,password).ContinueWith(task => {
 			StartCoroutine(authCallBack(task,"sign_up"));
+			FindObjectOfType<AudioManager>().Stop("levelselectnoise");
 			Debug.Log("In signUpNewUser");
 		});
 	}
@@ -34,6 +36,7 @@ public class AuthManager : MonoBehaviour {
 	public void LoginExistingUser(string email, string password){
 		auth.SignInWithEmailAndPasswordAsync(email,password).ContinueWith(task => {
 			StartCoroutine(authCallBack(task,"login"));
+			FindObjectOfType<AudioManager>().Stop("levelselectnoise");
 			Debug.Log("In Login");
 		});
 	}

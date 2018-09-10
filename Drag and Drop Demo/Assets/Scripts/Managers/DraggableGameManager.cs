@@ -9,7 +9,7 @@ public class DraggableGameManager : MonoBehaviour
 
     [SerializeField]
     private Transform DragPanel, DropPanel;
-    private static int count = 0;
+    public static int count = 0;
 
 
     void Awake()

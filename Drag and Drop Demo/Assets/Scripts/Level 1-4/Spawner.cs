@@ -30,6 +30,7 @@ public class Spawner : MonoBehaviour {
 	}
 
 	void Update () {
+		
 		spawnWait = Random.Range(spawnLeastWait,spawnMostWait);
 	}
 
