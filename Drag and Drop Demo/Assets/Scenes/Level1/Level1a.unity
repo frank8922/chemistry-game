@@ -573,6 +573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 437743018}
   loginDialogObject: {fileID: 437743015}
+  textMesh: {fileID: 0}
 --- !u!95 &437743018
 Animator:
   serializedVersion: 3
@@ -615,7 +616,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &632131746
 GameObject:

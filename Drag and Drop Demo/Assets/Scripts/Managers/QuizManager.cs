@@ -57,7 +57,7 @@ public class QuizManager : MonoBehaviour
         }
         count++;
         //score 15
-        if (score >= 4)
+        if (score >= 15)
         {
             if (SceneManager.GetActiveScene().name == "Level5")
             {

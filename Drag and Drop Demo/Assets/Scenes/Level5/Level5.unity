@@ -2654,7 +2654,7 @@ RectTransform:
   m_AnchorMin: {x: 0.51124996, y: 0.5}
   m_AnchorMax: {x: 0.51124996, y: 0.5}
   m_AnchoredPosition: {x: -9, y: 0}
-  m_SizeDelta: {x: 662.7, y: 493.6}
+  m_SizeDelta: {x: 944.6, y: 559.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795901015
 MonoBehaviour:
@@ -3761,6 +3761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2072849770}
   loginDialogObject: {fileID: 2072849767}
+  textMesh: {fileID: 0}
 --- !u!95 &2072849770
 Animator:
   serializedVersion: 3
@@ -3803,7 +3804,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &2106171306 stripped
 MonoBehaviour:
@@ -3846,7 +3847,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 489, y: 275.3}
+  m_SizeDelta: {x: 634.7, y: 336.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111895867
 MonoBehaviour:
@@ -3895,8 +3896,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3941,7 +3942,7 @@ MonoBehaviour:
     spaceCount: 8
     wordCount: 9
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
