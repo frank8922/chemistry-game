@@ -6,23 +6,12 @@ using UnityEngine.Networking;
 
 public class GET : MonoBehaviour {
     
-    
-    public InputField url, data, uid;
-    
-
-    public void getResponse(string uid)
+    //GET
+    public void get(string uid)
     {
         string url = "http://167.99.5.35:8080/API/get?uid=" + uid;
         WWW www = new WWW(url);
         StartCoroutine(WaitForRequest(www));
-    }
-
-    public void postResponse(string url, string data, string uid){
-        //string url = "http://167.99.5.35:8080/API/save";
-        //string data = "{\"name\":\"bob marley from unity test 2\"}";
-        //string uid = "5XwCmxgUF3PY61vPclwcKoyiQJr1";
-
-        StartCoroutine(PostRequest(url,data,uid));
     }
 
     IEnumerator WaitForRequest(WWW www)
@@ -38,6 +27,15 @@ public class GET : MonoBehaviour {
         {
             Debug.Log("WWW Error: " + www.error);
         }
+    }
+
+    //POST
+
+    public void post(string url, string data, string uid){
+        //string url = "http://167.99.5.35:8080/API/save";
+        //string data = "{\"name\":\"bob marley from unity test 2\"}";
+        //string uid = "5XwCmxgUF3PY61vPclwcKoyiQJr1";
+        StartCoroutine(PostRequest(url,data,uid));
     }
 
     IEnumerator PostRequest(string url, string json, string uid)

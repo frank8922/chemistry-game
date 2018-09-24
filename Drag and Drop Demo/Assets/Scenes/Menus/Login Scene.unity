@@ -2154,10 +2154,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emailInput: {fileID: 2046888559}
   passwordInput: {fileID: 1500655804}
+  fullNameInput: {fileID: 0}
+  professorNameInput: {fileID: 0}
   signUpButton: {fileID: 2044364375}
   loginButton: {fileID: 1989133886}
   statusText: {fileID: 2088928712}
   authManager: {fileID: 345665731}
+  get: {fileID: 0}
 --- !u!4 &345665730
 Transform:
   m_ObjectHideFlags: 0
@@ -7319,10 +7322,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emailInput: {fileID: 1942574739}
   passwordInput: {fileID: 18504715}
+  fullNameInput: {fileID: 270770839}
+  professorNameInput: {fileID: 1425301479}
   signUpButton: {fileID: 273350331}
   loginButton: {fileID: 0}
   statusText: {fileID: 960398010}
   authManager: {fileID: 1753602833}
+  get: {fileID: 0}
 --- !u!4 &1753602832
 Transform:
   m_ObjectHideFlags: 0

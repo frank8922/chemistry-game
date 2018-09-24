@@ -17,11 +17,13 @@ public class Timer : MonoBehaviour
 	float timeLeft = 30;
 	Text countdownText;
 	public static int counter = 0;
+	public static int postCount = 0;
 
 	public string json;
 
 	void Awake(){
-		getResponse("0S1zkwI3pjSjdfGHLbj9FP5MfbC3");
+		//getResponse("0S1zkwI3pjSjdfGHLbj9FP5MfbC3");
+		postCount = 0;
 	}
 
 	void Start()
@@ -62,8 +64,14 @@ public class Timer : MonoBehaviour
 		string varInCorrect = "\"incorrect\":\"" + DraggingObjects.incorrectAnswers + "\"";
 		string varCorrect = "\"correct\":\"" + DraggingObjects.correctAnswers + "\"";
 		string variable = "{" + varCorrect + "," + varInCorrect + "}";
-		postResponse("http://167.99.5.35/api/savedata",variable,"0S1zkwI3pjSjdfGHLbj9FP5MfbC3",SceneManager.GetActiveScene().name);
-		Debug.Log(variable);
+		
+		if(postCount < 1){
+			Debug.Log("player prefs: uid:" + PlayerPrefs.GetString("uid"));
+			postResponse("http://167.99.5.35/api/savedata",variable,PlayerPrefs.GetString("uid","no uid"),SceneManager.GetActiveScene().name);
+			Debug.Log(variable);
+		}
+		postCount++;
+
 		Spawner.stop = true;
 		yield return new WaitForSeconds(2);
 		Spawner.stop = false;
@@ -159,12 +167,12 @@ public class Timer : MonoBehaviour
         StartCoroutine(WaitForRequest(www));
     }
 
-    public void postResponse(string url, string data, string uid, string node){
-        //string url = "http://167.99.5.35:8080/API/save";
+    public void postResponse(string url, string data, string uid, string level){
+        //string url = "http://167.99.5.35:8080/api/savedata";
         //string data = "{\"name\":\"bob marley from unity test 2\"}";
         //string uid = "5XwCmxgUF3PY61vPclwcKoyiQJr1";
 
-        StartCoroutine(PostRequest(url,data,uid,node));
+        StartCoroutine(PostRequest(url,data,uid,level));
     }
 
     IEnumerator WaitForRequest(WWW www)
@@ -183,7 +191,7 @@ public class Timer : MonoBehaviour
         }
     }
 
-    IEnumerator PostRequest(string url, string json, string uid, string node)
+    IEnumerator PostRequest(string url, string json, string uid, string level)
     {
         var uwr = new UnityWebRequest(url, "POST");
         byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
@@ -191,7 +199,7 @@ public class Timer : MonoBehaviour
         uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
         uwr.SetRequestHeader("Content-Type", "application/json");
         uwr.SetRequestHeader("uid", uid);
-		uwr.SetRequestHeader("node", node);
+		uwr.SetRequestHeader("level", level);
 
 
         //Send the request then wait here until it returns

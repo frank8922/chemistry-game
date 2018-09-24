@@ -10,11 +10,14 @@ using Firebase;
 using Firebase.Auth;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEngine.Networking;
 
 public class FormManager : MonoBehaviour {
 
 	public TMPro.TMP_InputField emailInput;
 	public TMPro.TMP_InputField passwordInput;
+	public TMPro.TMP_InputField fullNameInput;
+	public TMPro.TMP_InputField professorNameInput;
 	public Button signUpButton;
 	public Button loginButton;
 	public TMPro.TMP_Text statusText;
@@ -27,10 +30,11 @@ public class FormManager : MonoBehaviour {
 	private bool validPassword = false;
 	private bool loginBtnValid = false;
 	private bool signUpBtnValid = false;
+	public GameObject get;
 
 
 	void Awake() { 
-		authManager.authCallBack += HandleAuthCallBack; 
+		authManager.authCallBack += HandleAuthCallBack;
 		}
 
 	void OnEnable(){ initButtons(); }
@@ -78,14 +82,26 @@ public class FormManager : MonoBehaviour {
 
 			}
 			else if(task.IsCompleted){
-				if(operation == "sign_up"){
-					Firebase.Auth.FirebaseUser newPlayer = task.Result;
-					Debug.Log("In HandleAuthCallback");
-					createNewUser(newPlayer);
-				}
 				
-				// loadLevelSelectScene();
-				SceneManager.LoadScene("LevelSelect");
+				Firebase.Auth.FirebaseUser newPlayer = task.Result;
+				Debug.Log("In HandleAuthCallback: task.isCompleted");
+
+				PlayerPrefs.SetString("uid", newPlayer.UserId);
+
+				if(PlayerPrefs.HasKey("uid")){
+					Debug.Log("Hasaki! "+PlayerPrefs.GetString("uid"));
+				}
+
+				if(operation == "sign_up"){
+					createNewUser(newPlayer);
+                    //send post request to server saving new student info
+					//(url, uid, name, email, course)
+                    Debug.Log("uid:"+newPlayer.UserId+",name:"+fullNameInput.text+",email:"+email+",class:"+professorNameInput.text);
+                    postResponse("http://mdcchem.ddns.net/api/saveuser", newPlayer.UserId,fullNameInput.text,email,professorNameInput.text);
+            }
+
+                // loadLevelSelectScene();
+                SceneManager.LoadScene("LevelSelect");
 				yield return new WaitForSeconds(1.5f);
 
 			}
@@ -157,7 +173,7 @@ public class FormManager : MonoBehaviour {
 
 	private void createNewUser(FirebaseUser newPlayer){
 		//create a new player on firebase database
-		Player player = new Player(newPlayer.Email,0,1,professorName,fullName);
+		Player player = new Player(newPlayer.Email,0,1,professorNameInput.text,fullNameInput.text);
 		DatabaseManager.sharedInstance.createNewPlayer(player, newPlayer.UserId);
 	}
 
@@ -194,4 +210,36 @@ public class FormManager : MonoBehaviour {
 			loginBtnValid = true;	
 		}
 	}
+
+
+public void postResponse(string url, string uid, string name, string email, string course){
+
+	StartCoroutine(PostRequest(url, uid, name, email, course));
+}
+
+IEnumerator PostRequest(string url, string uid, string name, string email, string course){
+        var uwr = new UnityWebRequest(url, "POST");
+        //byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
+        //uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
+        uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
+        uwr.SetRequestHeader("Content-Type", "application/json");
+        uwr.SetRequestHeader("uid", uid);
+        uwr.SetRequestHeader("name", name);
+        uwr.SetRequestHeader("email", email);
+        uwr.SetRequestHeader("class", course);
+
+
+        //Send the request then wait here until it returns
+        yield return uwr.SendWebRequest();
+
+        if (uwr.isNetworkError)
+        {
+            Debug.Log("Error While Sending: " + uwr.error);
+        }
+        else
+        {
+            Debug.Log("Received: " + uwr.downloadHandler.text);
+
+        }
+    }
 }
