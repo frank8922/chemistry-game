@@ -125,6 +125,7 @@ PlayerSettings:
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   xboxOneEnable7thCore: 0
+  isWsaHolographicRemotingEnabled: 0
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -152,6 +153,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.mdcchem
+    iOS: com.mdcchem
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -639,8 +641,9 @@ PlayerSettings:
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
   apiCompatibilityLevelPerPlatform:
-    Android: 3
-    WebGL: 3
+    Android: 1
+    WebGL: 1
+    iOS: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Drag and Drop Demo
@@ -712,7 +715,7 @@ PlayerSettings:
     Collab: 0
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 3
+  apiCompatibilityLevel: 2
   cloudProjectId: f7a2bda7-f506-49c9-8cbe-f1b1573df278
   projectName: DragNDrop (1)
   organizationId: unity_4ekdgcenvmxg4q

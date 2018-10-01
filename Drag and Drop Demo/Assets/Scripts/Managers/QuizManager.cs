@@ -15,6 +15,7 @@ public class QuizManager : MonoBehaviour
 
     [SerializeField]
     public Button TrueButton, FalseButton;
+    public GameObject rulesDialog;
 
 
     [SerializeField]
@@ -201,9 +202,11 @@ public class QuizManager : MonoBehaviour
 
     IEnumerator TimedThreshHold()
     {
+
         while (true)
-        {
+        { 
             yield return new WaitForSeconds(timeThreshhold);
+            count++;
             timeThreshhold--;
         }
 

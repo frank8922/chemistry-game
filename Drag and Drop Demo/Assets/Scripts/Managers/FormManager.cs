@@ -101,6 +101,7 @@ public class FormManager : MonoBehaviour {
             }
 
                 // loadLevelSelectScene();
+				FindObjectOfType<AudioManager>().Stop("levelselectnoise");
                 SceneManager.LoadScene("LevelSelect");
 				yield return new WaitForSeconds(1.5f);
 
